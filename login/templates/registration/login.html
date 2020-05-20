@@ -1,0 +1,42 @@
+{% extends "registration/base.html" %}
+
+
+{% block log_form %}
+    <div id="block-gavias-edmix-content"
+         class="block block-system block-system-main-block no-title">
+        <div class="content block-content">
+         {% if form.errors %}
+                        <p class="mb-3 text-danger">Пароль або ім'я юзера не співпадають</p>
+                    {% endif %}
+            <form class="user-login-form" data-drupal-selector="user-login-form"
+                  action="{% url 'login' %}" method="post" id="user-login-form"
+                  accept-charset="UTF-8">
+                {% csrf_token %}
+                <div class="js-form-item form-item js-form-type-textfield form-item-name js-form-item-name">
+                    {% if next %}
+                        {% if user.is_authenticated %}
+                            <p>Your account doesn't have access to this page. To proceed,
+                                please login with an account that has access.</p>
+                        {% else %}
+                            <p>Please login to see this page.</p>
+                        {% endif %}
+                    {% endif %}
+
+                    <div>
+                        <label for="edit-name"
+                               class="js-form-required form-required">Введіть ім'я(ваш нікнейм)</label>
+                        <div>{{ form.username }}</div>
+                    </div>
+                    <div class="js-form-item form-item js-form-type-password form-item-pass js-form-item-pass mt-3">
+                        <label for="edit-pass"
+                               class="js-form-required form-required">Введіть пароль</label>
+                        <div class="w-100 mr-5">{{ form.password }}</div>
+
+                    </div>
+
+                    <input type="submit" class="btn btn-default btn-lg mt-4" value="Увійти" />
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

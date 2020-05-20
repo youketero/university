@@ -1,0 +1,50 @@
+{% extends "base/base.html" %}
+
+
+{% block content %}
+    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+        <div class="column-inner bg-size-cover container">
+            <div class="column-content-inner">
+                {% if articles.count <= 0 %}
+                    <h4>Нічого не знайдено за пошуком: {{ query }}</h4>
+                {% endif %}
+                {% if articles.count > 0 %}
+                    <div class="post-style-list small js-view-dom-id-2dbb5552f705e4c9fcb84c4e04383eba66ce721b49080e8d28ecfb86fbe063d4">
+                    <div class="mb-5"><h4>Знайдено результатів: {{ articles.count }}</h4></div>
+                {% endif %}
+                <div class="item-list ">
+                    <ul>
+                        {% for article in articles %}
+                            <li class="view-list-item p-0 col-lg-3 col-md-4 col-sm-6 col-12">
+                                <div class="views-field views-field-nothing">
+                                    <div class="field-content">
+                                        <div class="post-block">
+                                            <div class="post-image">
+                                                <a href="{% url "article" article.title %}"><img
+                                                        src="{{ article.image_head.url }}" alt="" typeof="Image"></a>
+                                            </div>
+                                            <div class="post-content">
+                                                <div class="post-title"><a href="{% url "article" article.title %}"
+                                                                           hreflang="en">{{ article.title }}</a></div>
+                                                <div class="post-meta"><span
+                                                        class="post-created">{{ article.date|date:"d-m-Y" }}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% for teacher in teachers %}
+                    <h5><a href="{% url "teacher" teacher.id %}">{{ teacher.name }} {{ teacher.last_name }}</a></h5>
+                {% endfor %}
+                {% for partner in partners %}
+                    <h5><a href="{{ partner.hyper_link_site }}">{{ partner.name }}</a></h5>
+                {% endfor %}
+                </div>
+            </div>
+        </div>
+
+{% endblock %}

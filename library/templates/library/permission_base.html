@@ -1,0 +1,25 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load auth_tag %}
+
+
+{% block content %}
+    {% if user.is_authenticated and request.user|has_group:"active_user" %}
+        {% block permission %}
+
+        {% endblock %}
+
+    {% else %}
+        <div class="container my-5 px-4 p-5 container-danger">
+            <div class="col-offset-2 text-center my-5">
+                <h2 class="text-danger">Ви не авторизовані у системі</h2>
+                <p>Це буває у випадку коли ви не авторизовані,
+                    або у вас немає дозволів на дану сторінку.</p>
+                <p>Якщо ви зареєстровані та ваші дані валідні почекайте добу.</p>
+            </div>
+        </div>
+    {% endif %}
+
+
+
+{% endblock %}

@@ -1,0 +1,359 @@
+{% extends "base/base_generic.html" %}
+{% load static %}
+
+{% block base %}
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+            src="https://connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v5.0"></script>
+    <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    <div class="body-page gva-body-page">
+    <header id="header" class="header-v1">
+        <div class="topbar">
+            <div class="container">
+                <div class="row">
+                    <div class="topbar-left col-sm-6 col-xs-6">
+                        <div class="social-list"><a href="https://www.facebook.com/www.geol.univ.kiev.ua/"><i
+                                class="fab fa-facebook-f"></i></a> <a href="https://twitter.com/kyivuniversity"><i
+                                class="fab fa-twitter"></i></a> <a href="https://t.me/abit_geologists"><i
+                                class="fab fa-telegram-plane"></i></a></div>
+                    </div>
+                    <div class="topbar-right col-sm-6 col-xs-6">
+                        <ul class="gva_topbar_menu">
+                            {% if user.is_authenticated %}
+                                <li>Привіт {{ user.get_username }}</li>
+                                <li>{% block log_form %}<a href="{% url "logout" %}">Вийти</a>{% endblock %}</li>
+                            {% else %}
+                                <li><a href="{% url "login1" %}">Увійти</a></li>
+                                <li><a href="{% url "register" %}">Зареєструватися</a></li>
+                            {% endif %}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" gv-sticky-menu">
+            <div class="container header-content-layout">
+                <div class="header-main-inner p-relative">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-6 col-xs-8 branding mt-1">
+                            <div>
+                                <a href="#" title="Home" rel="home" class="site-branding-logo pr-2">
+                                    <img src="{% static "img/unnamed.jpg" %}" alt="Home" width="50" height="50"/>
+                                </a>
+                                <a href="http://www.univ.kiev.ua/ua/" title="Home" rel="home"
+                                   class="site-branding-logo"> <img src="{% static "img/gerb.jpg" %}" alt="Home"
+                                                                    width="53" height="53"/>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-6 col-xs-4 p-static">
+                            <div class="header-inner clearfix">
+                                <div class="main-menu">
+                                    <div class="area-main-menu">
+                                        <div class="area-inner">
+                                            <div class="gva-offcanvas-mobile">
+                                                <div class="close-offcanvas hidden"><i class="fa fa-times"></i>
+                                                </div>
+                                                <div>
+                                                    <nav role="navigation" aria-labelledby="block-mainnavigation-menu"
+                                                         id="block-mainnavigation"
+                                                         class="block block-menu navigation menu--main">
+                                                        <div class="block-content">
+                                                            <div class="gva-navigation">
+                                                                <ul class="clearfix gva_menu gva_menu_main">
+                                                                    <li class="menu-item menu-item "><a
+                                                                            href="{% url "home" %}"> Головна </a>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item--expanded "><a
+                                                                            href="#">Факультет <span
+                                                                            class="icaret nav-plus fa fa-angle-down"></span>
+                                                                    </a>
+                                                                        <ul class="menu sub-menu">
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "cathed" %}">Структура
+                                                                                університету </a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="https://museum-portal.com/ua/museum/knu---geological-museum/"
+                                                                                    target="_blank">Геологічний
+                                                                                музей </a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "partner" %}">Партнери </a>
+                                                                            </li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "anonce" %}">Конференції
+                                                                                та івенти </a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "science_learning" %}">Наукова
+                                                                                діяльність </a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "galery" %}">Галерея </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menu-item  "><a href="{% url "news" %}">
+                                                                        Новини </a>
+                                                                    </li>
+                                                                    <li class="menu-item   menu-item--expanded "><a
+                                                                            href="#">Aбітурієнту <span
+                                                                            class="icaret nav-plus fa fa-angle-down"></span></a>
+                                                                        <ul class="menu sub-menu">
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "info" %}">Про
+                                                                                університет</a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="http://vstup.univ.kiev.ua/pages/61"
+                                                                                    target="_blank">Правила прийому до
+                                                                                КНУ ім.Тараса Шевченка </a></li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "vstup" %}">Набір за
+                                                                                освітньою програмою </a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menu-item menu-item--expanded "><a
+                                                                            href="#"> Студенту <span
+                                                                            class="icaret nav-plus fa fa-angle-down"></span>
+                                                                    </a>
+                                                                        <ul class="menu sub-menu">
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "library" %}">Бібліотека </a>
+                                                                            </li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "education" %}">Навчання</a>
+                                                                            </li>
+                                                                            <li class="menu-item"><a
+                                                                                    href="{% url "info_for_students" %}">Оголошення</a>
+                                                                            </li>
+                                                                            <li class="menu-item"><a href="#">Студпарламент</a>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </li>
+                                                                    <li class="menu-item "><a
+                                                                            href="{% url "contact" %}">Контакти </a>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                            <div id="menu-bar" class="menu-bar hidden-lg hidden-md"><span
+                                                    class="one"></span> <span class="two"></span> <span
+                                                    class="three"></span></div>
+                                            <div class="gva-search-region search-region"><span class="icon"><i
+                                                    class="fa fa-search"></i></span>
+                                                <div class="search-content">
+                                                    <div>
+                                                        <div class="search-block-form block block-search container-inline"
+                                                             data-drupal-selector="search-block-form"
+                                                             id="block-searchform" role="search">
+                                                            <!--<form action="#" method="get"
+                                                                  id="search-block-form" accept-charset="UTF-8"
+                                                                  class="search-form search-block-form">
+                                                                <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+                                                                    <label for="edit-keys" class="visually-hidden">Пошук</label>
+                                                                    <input title="Enter the terms you wish to search for."
+                                                                           type="text" id="edit-keys" name="q" value=""
+                                                                           size="15" maxlength="128"
+                                                                           class="form-search"/></div>
+                                                                <div class="form-actions js-form-wrapper form-wrapper"
+                                                                     id="edit-actions">
+                                                                    <input class="search-form__submit button js-form-submit form-submit"
+                                                                           type="submit" id="edit-submit"
+                                                                           value="Search"/>
+                                                                </div>
+                                                            </form>-->
+                                                            <form action="{% url "search" %}" method="get"
+                                                                  id="search-block-form" accept-charset="UTF-8"
+                                                                  class="search-form search-block-form">
+                                                                <div class="js-form-item form-item js-form-type-search form-item-keys js-form-item-keys form-no-label">
+                                                                    <label for="edit-keys" class="visually-hidden">Search</label>
+                                                                    <input title="Enter the terms you wish to search for."
+                                                                           type="text" id="edit-keys" name="q" value=""
+                                                                           size="15" maxlength="128"
+                                                                           class="form-search"/></div>
+                                                                <div class="form-actions js-form-wrapper form-wrapper"
+                                                                     id="edit-actions">
+                                                                    <input class="search-form__submit button js-form-submit form-submit"
+                                                                           type="submit" id="edit-submit"
+                                                                           value="Search"/>
+                                                                </div>
+                                                            </form>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div role="main" class="main main-page">
+        <div class="help show hidden">
+            <div class="container">
+                <div class="content-inner">
+                    <div>
+                        <div data-drupal-messages-fallback class="hidden"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-main">
+            {% block content %}
+
+
+
+             {% endblock %}
+
+        </div>
+    </div>
+    <footer id="footer" class="footer">
+        <div class="footer-inner">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="before-footer clearfix area">
+                                <div>
+                                    <div id="block-sociallinksfooter"
+                                         class="block block-block-content block-block-content7e26e9e5-a2f4-4e12-9643-7c8954f954ef no-title">
+                                        <div class="content block-content">
+                                            <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                <div class="footer-social">
+                                                    <h5>Шукайте нас у соц. мережах</h5>
+                                                    <ul>
+                                                        <li><a href="#"><i
+                                                                class="fab fa-facebook-f fa-facebook-square"></i></a>
+                                                        </li>
+                                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a>
+                                                        </li>
+                                                        <li><a href="#"><i class="fab fa-twitter-square"></i></a>
+                                                        </li>
+                                                        <li><a href="https://www.instagram.com/knu_uni/?hl=ru"><i
+                                                                class="fab fa-instagram"></i></a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-center">
+                <div class="container">
+                    <div class="row">
+                        <div class=" col-lg-3 col-md-3 col-sm-12 col-xs-12 column">
+                            <div>
+                                <div id="block-contactinfo"
+                                     class="block block-block-content block-block-content7da38301-272f-4979-8de1-06b564010f17">
+                                    <h2 class="block-title"><span>Контакти</span></h2>
+                                    <div class="content block-content">
+                                        <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                            <div class="contact-info"><span class="description"> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras eleifend egestas justo.</span>
+                                                <ul class="contact-info">
+                                                    <li><span><i class="fa fa-home"></i> Вул. Васильківська 90а, м.Київ </span>
+                                                    </li>
+                                                    <li><span><i
+                                                            class="fa fa-mobile-phone"></i> (+84) 04 123 456</span>
+                                                    </li>
+                                                    <li><a href="mailto:info@yourstore.com"><i
+                                                            class="fas fa-envelope"></i>
+                                                        geol_decanat@univ.kiev.ua</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" col-lg-3 col-md-3 col-sm-12 col-xs-12 column">
+                            <div>
+                                <div id="block-linkfooter"
+                                     class="block block-block-content block-block-contentf68ff84d-6af0-4c49-8b85-ae338addc541">
+                                    <h2 class="block-title"><span>Посилання</span></h2>
+                                    <div class="content block-content">
+                                        <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                            <div class="clearfix">
+                                                <ul class="menu">
+                                                    <li><a href="#">Про нас</a></li>
+                                                    <li><a href="#">Сайт університету</a></li>
+                                                    <li><a href="#">Енциклопедія КНУ</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 column">
+                            <div>
+                                <div id="block-twitterblock" class="block block-twitter-block">
+                                    <h2 class="block-title"><span>Facebook блог</span></h2>
+                                    <div class="content block-content">
+                                        <div class="fb-page" data-href="https://www.facebook.com/www.geol.univ.kiev.ua/"
+                                             data-tabs="timeline" data-width="600" data-height=""
+                                             data-small-header="true" data-adapt-container-width="true"
+                                             data-hide-cover="false" data-show-facepile="true">
+                                            <blockquote cite="https://www.facebook.com/www.geol.univ.kiev.ua/"
+                                                        class="fb-xfbml-parse-ignore"><a
+                                                    href="https://www.facebook.com/www.geol.univ.kiev.ua/">ННІ&quot;Інститут
+                                                Геології&quot; КНУ ім. Т. Шевченка</a></blockquote>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright-inner">
+                    <div>
+                        <div id="block-copyright"
+                             class="block block-block-content block-block-content61f17841-749f-436d-9799-1dfeefd7ad43 no-title">
+                            <div class="content block-content">
+                                <div class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                    <div class="text-center">© Copyright Powered by Django 2019</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="gva-popup-ajax" class="clearfix">
+            <div class="pajax-content"><a href="javascript:void(0);" class="btn-close"><i class="gv-icon-4"></i></a>
+                <div class="gva-popup-ajax-content clearfix"></div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-share.js/master/dist/lg-share.js"></script>
+    <script src="{% static "static/js/lg-thumbnail.js" %}"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'), {
+            thumbnail: true,
+            animateThumb: false,
+            showThumbByDefault: false
+        });
+    </script>
+{% endblock %}

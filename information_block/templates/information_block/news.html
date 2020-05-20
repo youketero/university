@@ -1,0 +1,88 @@
+{% extends "base/aside.html" %}
+
+{% load static %}
+{% block title %}
+    Новини
+{% endblock %}
+
+{% block aside %}
+    <div id="page-main-content" class="main-content  col-lg-8 col-xs-12 col-md-12 ">
+                                <div class="main-content-inner">
+                                    <div class="content-main">
+                                        <div>
+                                            <header>
+                                                <div class="container">
+                                                    <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                                                        <h2 class="node__title title"><span><span
+                                                                property="schema:name">Новини</span></span></h2>
+                                                        <div class="heading-line"><span class="one"></span><span
+                                                                class="second"></span><span class="three"></span></div>
+                                                    </div>
+                                                </div>
+                                            </header>
+                                            <div id="block-gavias-edmix-content"
+                                                 class="block block-system block-system-main-block no-title">
+                                                <div class="content block-content">
+                                                    <div class="views-element-container">
+                                                        <div class="post-style-list ">
+                                                            <div class="item-list px-4">
+                                                                <ul>
+                                                                    {% for article in contacts %}
+                                                                        <li class="view-list-item">
+                                                                            <div class="views-field views-field-nothing">
+                                                                                <span class="field-content">
+                                                                                    <div class="post-block">
+                                                                                     <div class="post-image"> <img
+                                                                                             src="{{ article.image_head.url }}"
+                                                                                             alt=""
+                                                                                             typeof="Image"></div>
+                                                                                     <div class="post-content">
+                                                                                        <div class="post-title"><a
+                                                                                                href="{% url "article" article.title %}"
+                                                                                                hreflang="en">{{ article.title }}</a></div>
+                                                                                        <div class="post-meta margin-bottom-10"> <span
+                                                                                                class="post-created"> {{ article.date|date:"d-m-Y" }}</span></div>
+                                                                                        <div class="body">{{ article.short_text }}</div>
+                                                                                     </div>
+                                                                                  </div>
+                                                                               </span>
+                                                                            </div>
+                                                                        </li>
+                                                                    {% endfor %}
+                                                                </ul>
+                                                            </div>
+                                                            <nav class="pager" role="navigation"
+                                                                 aria-labelledby="pagination-heading">
+                                                                <ul class="pager__items js-pager__items">
+                                                                    {% if contacts.has_previous %}
+                                                                        <li class="pager__item">
+                                                                            <a href="?page=1">&laquo; first</a>
+                                                                        </li>
+                                                                        <li class="pager__item">
+                                                                            <a href="?page={{ contacts.previous_page_number }}">{{ contacts.previous_page_number }}</a>
+                                                                        </li>
+                                                                    {% endif %}
+                                                                    <li class="pager__item is-active"><a
+                                                                            href="?page={{ contacts.number }}"> {{ contacts.number }} </a>
+                                                                    </li>
+                                                                    {% if contacts.has_next %}
+                                                                        <li class="pager__item" aria-current="page">
+                                                                            <a href="?page={{ contacts.next_page_number }}">{{ contacts.next_page_number }}</a>
+                                                                        </li>
+                                                                        <li class="pager__item">
+                                                                            <a href="?page={{ contacts.paginator.num_pages }}">
+                                                                                <span aria-hidden="true">Last »</span>
+                                                                            </a>
+                                                                        </li>
+                                                                    {% endif %}
+                                                                </ul>
+                                                            </nav>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+{% endblock %}

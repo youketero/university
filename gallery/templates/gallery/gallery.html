@@ -1,0 +1,70 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}
+    Gallery
+{% endblock %}
+
+{% block content %}
+
+    <div class="gbb-row-wrapper mt-5 mx-4">
+        <div class=" gbb-row bg-size-cover container">
+            <div class="row ">
+                <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                    <div class="column-content-inner">
+                        <header>
+                            <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                                <h2 class="node__title title"><span><span property="schema:name">Галерея</span></span>
+                                </h2>
+                                <div class="heading-line"><span class="one"></span><span class="second"></span><span
+                                        class="three"></span></div>
+                                <div class="title-desc">
+                                    <p>
+                                    <p>Proin aliquam ante quis sagittis blandit. In hac habitasse platea dictumst. In
+                                        sit amet pharetra tellus. Morbi sed consequat augue. Quisque ultricies, ex et
+                                        sagittis commodo.</p>
+                                </div>
+                            </div>
+                        </header>
+                        <div>
+                            <div class="widget block gsc-block-view gsc-block-drupal block-view title-align-left text-dark remove-margin-off">
+                                <div class="views-element-container">
+                                    <div class="gallery-grid-small js-view-dom-id-ea36bc02cd1031c938aa0a4ce8e210580285ba795984fa0d855f49648d1f97ba">
+                                        <div class="gva-view-grid no-gutter">
+                                            <div class="gva-view-grid-inner lg-block-grid-3 md-block-grid-2 sm-block-grid-2 xs-block-grid-2 ">
+                                                {% for foto in gallery1 %}
+                                                    <div class="item-columns ">
+                                                        <div class="">
+                                                            <div class="gallery-block">
+                                                                <div class="gallery-images lightGallery">
+                                                                    <div>
+                                                                        <div class="image-item"><img
+                                                                                src="{{ foto.photos.first.get_thumbnail_url }}"
+                                                                                alt="" class="hidden"> <img
+                                                                                src="{{ foto.photos.first.get_thumbnail_url }}"
+                                                                                alt="" typeof="foaf:Image"></div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="gallery-content">
+                                                                    <h3 class="post-title"><a
+                                                                            href="{% url "foto_gallery"  foto.title %}"
+                                                                            rel="bookmark"><span>{{ foto.title }}</span></a>
+                                                                    </h3>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

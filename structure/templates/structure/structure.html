@@ -1,0 +1,58 @@
+{% extends "base/base.html" %}
+
+
+{% block title %}
+    Structure
+{% endblock %}
+
+{% block content %}
+
+    <div class="body-page gva-body-page mt-5">
+        <div role="main" class="main main-page ">
+            <div id="content" class="content content-full">
+                <div class="container container-bg">
+                    <div class="content-main-inner">
+                        <div class="row">
+                            <div id="page-main-content" class="main-content  col-lg-8 col-xs-12 col-md-8 ">
+                                <div class="main-content-inner">
+                                    <div class="content-main">
+                                        <div class="container">
+                                            <header>
+                                                <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                                                    <h2 class="node__title title"><span><span
+                                                            property="schema:name">Кафедри університету</span></span>
+                                                    </h2>
+                                                    <div class="heading-line"><span class="one"></span><span
+                                                            class="second"></span><span class="three"></span></div>
+                                                </div>
+                                                <div class="title-desc">
+                                                    <p>
+                                                        <span>В нашому інституті функціонує 7 кафедр</span>
+                                                    </p>
+                                                </div>
+                                            </header>
+                                            <div>
+                                                <div class="mt-4">
+                                                    <div class="post-block">
+                                                        {% for cathed in cathed2 %}
+                                                            <div class="pt-2">
+                                                                <div class="post-title"><a
+                                                                        href="{% url "cathed_name" cathed.cathed_name %}">{{ cathed.cathed_name_rus }}</a>
+                                                                </div>
+                                                            </div>
+                                                        {% endfor %}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

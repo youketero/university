@@ -1,0 +1,14 @@
+{% extends "base/base_generic.html" %}
+{% block title %}404 {% endblock %}
+{% block base %}
+    <h1>404 Error Page #1</h1>
+    <p class="zoom-area">Отакої. Дана сторінка не існує</p>
+    <section class="error-container">
+        <span><span>4</span></span>
+        <span>0</span>
+        <span><span>4</span></span>
+    </section>
+    <div class="link-container">
+        <a target="_blank" href="{% url "home" %}" class="more-link">Перейти на головну</a>
+    </div>
+{% endblock %}

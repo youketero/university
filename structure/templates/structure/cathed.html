@@ -1,0 +1,126 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}
+    {{ cathed_name }}
+{% endblock %}
+
+{% block content %}
+
+    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+        <div class="column-inner bg-size-cover container">
+            <div class="column-content-inner">
+                <header>
+                    <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                        <h2 class="node__title title"><span><span property="schema:name">{{ cathed_each.cathed_name_rus }}</span></span>
+                        </h2>
+                        <div class="heading-line"><span class="one"></span><span class="second"></span><span
+                                class="three"></span></div>
+                    </div>
+                </header>
+                <div class="gsc-tabs ">
+                    <div class="tabs_wrapper tabs_horizontal">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-gd92e-1">Головна</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-2">Історія</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-3">Штат</a></li>
+                        </ul>
+                        <div class="tab-content px-3">
+                            <div id="tab-gd92e-1" class="tab-pane fade in active">
+                                <article data-history-node-id="24" role="article"
+                                         about="/drupal/edmix/business-card-red"
+                                         class="node node-detail node--type-portfolio node--promoted node--view-mode-full clearfix">
+                                    <div class="post-block portfolio-single">
+                                        <div class="row">
+                                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 p-2">
+                                                <div class="post-thumbnail">
+                                                    <img src="{{ cathed_each.foto.url }}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="post-content p-0 pretty-letter">
+                                        <p>{{ cathed_each.description|linebreaksbr }}</p>
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="mt-3"><h4>Контакти</h4></div>
+                                        <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"></div>
+                                        <div class="mt-3">
+                                            <a href="mailto:{{ cathed_each.email }}"><i
+                                                    class="fas fa-envelope mr-3"></i></a> {{ cathed_each.email }}
+                                        </div>
+                                        <div class="py-4 mb-4">
+                                            <a href="tel:{{ cathed_each.number }}"><i class="fas fa-mobile mr-4"></i></a>{{ cathed_each.number }}
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div id="tab-gd92e-2" class="tab-pane fade in ">
+                                <div id="block-gavias-edmix-content"
+                                     class="block block-system block-system-main-block no-title">
+                                    <article data-history-node-id="24" role="article"
+                                             about="/drupal/edmix/business-card-red"
+                                             class="node node-detail node--type-portfolio node--promoted node--view-mode-full clearfix">
+                                        <div class="post-content">
+                                            <div class="post-block pretty-letter">
+                                                <p>{{ cathed_each.history|linebreaksbr }}</p></div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                            <div id="tab-gd92e-3" class="tab-pane fade in ">
+                                <div class="widget block gsc-block-view gsc-block-drupal block-view title-align-left text-dark remove-margin-off">
+                                    <div class="views-element-container p-0">
+                                        <div class="owl-carousel init-carousel-owl"
+                                             data-items="3" data-items_lg="3" data-items_md="3" data-items_sm="2"
+                                             data-items_xs="2" data-loop="0" data-speed="200" data-auto_play="0"
+                                             data-auto_play_speed="1000" data-auto_play_timeout="3000"
+                                             data-auto_play_hover="1" data-navigation="1" data-rewind_nav="0"
+                                             data-pagination="0" data-mouse_drag="1" data-touch_drag="1">
+
+                                            {% for teacher in teacher1 %}
+                                                <div class="owl-item">
+                                                    <div class=" team-teaser-1 mx-4 ">
+                                                        <div class="team-image ">
+                                                            <div class="field field--name-field-team-image field--type-image field--label-hidden field__item">
+                                                                <img src="{{ teacher.foto.url }}"
+                                                                     alt="" typeof="foaf:Image" height="300"></div>
+                                                            <a class="team-email"
+                                                               href="mailto:your_email@gmail.com">Email</a>
+                                                        </div>
+                                                        <div class="post-content">
+                                                            <div class="team-name"><a
+                                                                    href="{% url "teacher" teacher.id %}">{{ teacher.last_name }} {{ teacher.name }}</a>
+                                                            </div>
+                                                            <div class="team-job mt-2">{{ teacher.step }}
+                                                            </div>
+                                                            <div class="text-align-center">
+                                                                {{ teacher.short_text }}
+                                                            </div>
+                                                            <div class="socials mt-3">
+                                                                <a class="gva-social" href="#"> <i
+                                                                        class="fab fa-facebook"></i> </a>
+                                                                <a class="gva-social" href="#"> <i
+                                                                        class="fab fa-twitter"></i> </a>
+                                                                <a class="gva-social" href="#"> <i
+                                                                        class="fab fa-linkedin-square"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

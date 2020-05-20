@@ -1,0 +1,90 @@
+{% extends "base/aside.html" %}
+{% load static %}
+
+{% block title %}
+    Наші партнери
+{% endblock %}
+
+{% block aside %}
+            <div id="page-main-content" class="main-content col-xs-12 col-md-8 sb-r ">
+                <div class="main-content-inner">
+                    <div class="content-main">
+                        <div>
+                            <div id="block-gavias-edmix-content"
+                                 class="block block-system block-system-main-block no-title">
+                                <div class="content block-content">
+                                    <article data-history-node-id="75" role="article" typeof="schema:WebPage"
+                                             class="node node--type-page node--view-mode-full">
+                                        <header>
+                                            <div class="container">
+                                                <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                                                    <h2 class="node__title title"><span><span property="schema:name">Наші партнери</span></span>
+                                                    </h2>
+                                                    <div class="heading-line"><span class="one"></span><span
+                                                            class="second"></span><span class="three"></span></div>
+                                                </div>
+                                            </div>
+                                        </header>
+                                        <div class="node__content clearfix">
+                                            <div property="schema:text"
+                                                 class="field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                                                <p class="pl-4">На данній сторінці ви можете знайти партнерів ННІ
+                                                    "Інституту геології" та інформацію про них</p>
+                                            </div>
+                                            <div class="field field--name-field-block-builder field--type-blockbuilder field--label-hidden field__item">
+                                                <div class="gavias-blockbuilder-content">
+                                                    <div class="gavias-blockbuilder-content">
+                                                        <div class="gbb-row-wrapper">
+                                                            <div class=" gbb-row bg-size-cover" style="">
+                                                                <div class="bb-inner default">
+                                                                    <div class="bb-container container">
+                                                                        <div class="row">
+                                                                            <div class="row-wrapper clearfix">
+                                                                                <div class="gsc-column ">
+                                                                                    <div class="column-inner bg-size-cover ">
+                                                                                        <div class="column-content-inner">
+                                                                                            {% for partner in partner_each %}
+                                                                                                <div class="widget gsc-our-partners ">
+                                                                                                    <div class="image ">
+                                                                                                        <a href="{{ partner.hyper_link_site }}"><img
+                                                                                                                src="{{ partner.foto_logo.url }}"
+                                                                                                                alt=""></a>
+                                                                                                    </div>
+                                                                                                    <div class="content-inner ">
+                                                                                                        <div class="title">{{ partner.name }}</div>
+                                                                                                        <div class="info">
+                                                                                                            <span class="category">Theme &amp; Marketing Consulting,</span>
+                                                                                                            <span class="address">Victoria 8007 Australia</span>
+                                                                                                        </div>
+                                                                                                        <div class="content">
+                                                                                                            <p>{{ partner.short_information }}</p>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            {% endfor %}
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+{% endblock %}
+
+
+
+
+

@@ -1,0 +1,53 @@
+{% extends "base/base_generic.html" %}
+{% load static %}
+
+{% block base %}
+<div class="dialog-off-canvas-main-canvas my-5">
+    <div class="page-user-login gva-body-page">
+        <div class="bg"></div>
+        <div role="main" class="main main-page">
+            <div class="branding text-center">
+                <div class="w-25 m-auto">
+                    <a href="{% url "home" %}" title="Home" rel="home" class="site-branding-logo"> <img
+                            src="{% static "img/unnamed.jpg" %}" alt="Home"/> </a>
+                </div>
+            </div>
+            <div class="help show">
+                <div class="container">
+                    <div class="content-inner">
+                        <div>
+                            <div id="block-gavias-edmix-local-tasks"
+                                 class="block block-core block-local-tasks-block no-title">
+                                <div class="content block-content">
+                                    <h2 class="visually-hidden">Primary tabs</h2>
+                                    <ul class="tabs nav-tabs primary drupal-tabs">
+                                        <li><a href="{% url "login1" %}"
+                                               data-drupal-link-system-path="user/login"
+                                               class="is-active">Увійти<span class="visually-hidden">(active tab)</span></a>
+                                        </li>
+                                        <li><a href="{% url "register" %}"
+                                               data-drupal-link-system-path="user/register">Зареєструватися</a></li>
+                                        <li><a href="{% url "password_reset" %}"
+                                               data-drupal-link-system-path="user/password">Відновити пароль</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div data-drupal-messages-fallback class="hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div id="content" class="content content-full">
+                <div class="content-main">
+                    <div>
+                        {% block log_form %}
+
+                        {% endblock %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

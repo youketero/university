@@ -1,0 +1,62 @@
+{% extends "base/base.html" %}
+
+{% block title %}{{ teacher.name }} {{ teacher.last_name }} {% endblock %}
+
+
+{% block content %}
+    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 ">
+        <div class="column-inner bg-size-cover container">
+            <div class="column-content-inner">
+                <div class="team-single-page">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-12">
+                            <div class="team-image">
+                                <div class="field field--name-field-team-image field--type-image field--label-hidden field__item">
+                                    <img src="{{ teacher.foto.url }}" alt="" typeof="foaf:Image"></div>
+                            </div>
+                            <div class="team-contact margin-top-10">
+                                <div class="heading">Контактна інформація</div>
+                                <div class="content-inner">
+                                    <div class="field field--name-field-team-contact field--type-string field--label-hidden field__items">
+                                        <div class="field__item">Телефон : {{ teacher.phone_number }}</div>
+                                        <div class="field__item">Email : sanbro@gmail.com</div>
+                                    </div>
+                                </div>
+                                <div class="socials mt-3">
+                                    <a class="gva-social" href="#"> <i
+                                            class="fab fa-facebook"></i> </a>
+                                    <a class="gva-social" href="#"> <i
+                                            class="fab fa-twitter"></i> </a>
+                                    <a class="gva-social" href="#"> <i
+                                            class="fab fa-linkedin-square"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12  col-12">
+                            <div class="team-name clearfix">
+                                <div class="name">{{ teacher.name }} {{ teacher.last_name }}</div>
+                                <div class="">{{ teacher.step }}</div>
+                            </div>
+                            <div class="team-description">
+                                <div class="pretty-letter field field--name-field-team-description field--type-text-long field--label-hidden field__item">
+                                    <p>{{ teacher.short_history|linebreaksbr }}</p>
+                                </div>
+                            </div>
+                            <div class="team-info mt-4">
+                                <div class="team-education">
+                                    <div class="heading">Роботи викладача</div>
+                                    <div class="content-inner">
+                                        <div class="field field--name-field-team-education field--type-string field--label-hidden field__items">
+                                            <div class="field__item">{{ teacher.monography }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

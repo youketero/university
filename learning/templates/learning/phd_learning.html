@@ -1,0 +1,145 @@
+{% extends "base/base.html" %}
+{% load static %}
+
+{% block title %}Аспірантура і докторантура {% endblock %}
+
+{% block content %}
+
+    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+        <div class="column-inner bg-size-cover container">
+            <div class="column-content-inner">
+                <header>
+                    <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                        <h2 class="node__title title"><span><span property="schema:name">Аспірантура</span></span>
+                        </h2>
+                        <div class="heading-line"><span class="one"></span><span class="second"></span><span
+                                class="three"></span></div>
+                    </div>
+                </header>
+                <div class="gsc-tabs ">
+                    <div class="tabs_wrapper tabs_horizontal">
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tab-gd92e-1">Підготовка докторів філософії
+                                (phd) за спеціальністю «Науки про Землю»</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-2">Вступ</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-3">Навчання</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-4">Документи та Аналітична інформація</a></li>
+                            <li><a data-toggle="tab" href="#tab-gd92e-5">Докторантура</a></li>
+                        </ul>
+                        <div class="tab-content px-3">
+                            <div id="tab-gd92e-1" class="tab-pane fade in active">
+                                <div class="post-content p-0 pretty-letter">
+                                    <div class="post-content p-0 ">
+                                        <h5>Спеціалізації, за якими проводиться підготовка докторів філософії (phd) за
+                                            спеціальністю «Науки про Землю»</h5>
+                                        <ul class="font-weight-bold">
+                                            <li><a href="#">загальна та регіональна геологія;</a></li>
+                                            <li><a href="#">економічна геологія;</a></li>
+                                            <li><a href="#">гідрогеологія;</a></li>
+                                            <li><a href="#">геофізика;</a></li>
+                                            <li><a href="#">геоінформатики;</a></li>
+                                            <li><a href="#">геологія нафти і газу;</a></li>
+                                            <li><a href="#">мінералогія, кристалографія</a></li>
+                                        </ul>
+                                        <h5>Освітньо-наукова програма та навчальний план</h5>
+                                        <ul class="font-weight-bold">
+                                            <li><a href="{% static "docs/Earth_Sciences_plan.xls" %}">Освітньо-наукова програма підготовки здобувачів вищої освіти
+                                                третього освітньо-наукового рівня (галузь знань – 10 «Природничі науки»
+                                                спеціальність 103 «Науки про Землю» за cпеціалізаціями: загальна та
+                                                регіональна геологія; економічна геологія; гідрогеологія; геофізика;
+                                                геоінформатика; геологія нафти і газу; мінералогія, кристалографія)</a>
+                                            </li>
+                                            <li><a href="{% static "docs/ONP_NNI.pdf" %}">Навчальний план підготовки здобувачів вищої освіти третього
+                                                освітньо-наукового рівня</a></li>
+                                            <li><a href="{% static "docs/Earth_Sciences_plan_rus (2).xls" %}">Учебный план подготовки соискателей высшего образования
+                                                третьего образовательно-научного уровня</a></li>
+                                            <li><a href="{% static "docs/Earth_Sciences_plan_eng (2).xls" %}">Curriculum Training Program for Degree Applicants</a></li>
+                                            <hr>
+                                            <li><a href="#">Анотації дисциплін</a></li>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-gd92e-2" class="tab-pane fade in ">
+                                <div class="post-content p-0 pretty-letter">
+                                    <div class="post-content p-0 ">
+                                        <ul class="font-weight-bold">
+                                            <li><a href="{% static "docs/Aspirantura_2020.pdf" %}">Правила прийому до аспірантури у 2020 році</a></li>
+                                            <li><a href="http://asp.univ.kiev.ua/index.php/zbirnyk-osnovnykh-dokumentiv/documents/97-poriadok-pryiomu-ta-or1">Зразки документів для вступу до аспірантури</a></li>
+                                            <li><a href="{% static "docs/schedule_103_2019.pdf" %}">Розклад вступних іспитів до аспірантури (2019 рік)</a></li>
+                                            <li><a href="{% static "docs/program_entry_103_2019.doc" %}">Програма вступного іспиту за спеціальністю (2019 рік)</a>
+                                            </li>
+                                            <li><a href="{% static "docs/2019_English (1).doc" %}">Програма вступного іспиту з іноземної мови (2019 рік)</a>
+                                            </li>
+                                            <li><a href="{% static "docs/program_entry_app2019.doc" %}">Програма додаткового вступного випробування (2019 рік)</a>
+                                            </li>
+                                            <li><a href="{% static "docs/Metod (1).doc" %}">Методичні вказівки щодо оформлення Дослідницької пропозиції
+                                                при вступі в аспірантуру ННІ «Інститут геології»</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-gd92e-3" class="tab-pane fade in ">
+                                <div class="post-content p-0 pretty-letter">
+                                    <div class="post-content p-0 ">
+                                        <ul class="font-weight-bold">
+                                            <li><a href="{% static "docs/tematyka_2015-2018.doc" %}">Теми дисертаційних досліджень докторантів та аспірантів
+                                                першого року навчання (набір 2015-2018 рр.)</a></li>
+                                            <li><a href="{% static "docs/01_2020.pdf" %}">Список аспірантів ННІ «Інститут геології» станом на січень
+                                                2020 р.</a></li>
+                                            <li><a href="#">Програми кандидатських іспитів зі спеціальності</a></li>
+                                            <li><a href="http://asp.univ.kiev.ua/index.php/zbirnyk-osnovnykh-dokumentiv/documents/97-poriadok-pryiomu-ta-or1">Зразки документів для організації навчання в аспірантурі</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-gd92e-4" class="tab-pane fade in ">
+                                <div class="post-content p-0 pretty-letter">
+                                    <div class="post-content p-0 ">
+                                        <h5>Документи</h5>
+                                        <ul class="font-weight-bold">
+                                            <li><a href="{% static "docs/geological_journals.doc" %}">Перелік наукових фахових видань України, в яких можуть
+                                                публікуватися результати дисертаційних робіт на здобуття наукових
+                                                ступенів доктора і кандидата наук</a></li>
+                                            <li><a href="{% static "docs/disser_requirements_2017.docx" %}">Вимоги до оформлення дисертацій</a></li>
+                                        </ul>
+                                        <h5>Аналітична інформація</h5>
+                                        <ul class="font-weight-bold">
+                                            <li><a href="{% static "docs/disser_2013-19.doc" %}">Докторські та кандидатські дисертації, захищені в 2013-2019
+                                                роках</a></li>
+                                            <li><a href="{% static "docs/cand_disser_spec_2005-15.doc" %}">Загальна кількість захистів кандидатських дисертацій за
+                                                спеціальностями протягом 2005-2015 рр.</a></li>
+                                            <li><a href="{% static "docs/cand_disser_statistics.doc" %}">Статистика захистів кандидатських дисертацій</a></li>
+                                            <li><a href="{% static "docs/doct_disser_statistics.doc" %}">Статистика захистів докторських дисертацій</a></li>
+                                            <li><a href="{% static "docs/scientific_leaders_2000-15.doc" %}">Наукові керівники та кількість їх здобувачів наукового
+                                                ступеня, які захистили лисертації протягом 2000-2015 рр.</a></li>
+                                            <li><a href="{% static "docs/lecturers_rating_01.01.2020.doc" %}">Рейтинг викладачів та науковців в підготовці кадрів вищої
+                                                кваліфікації (станом на 01.01.2020 )</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-gd92e-5" class="tab-pane fade in ">
+                                <ul class="font-weight-bold">
+                                    <li>
+                                        <a href="http://asp.univ.kiev.ua/index.php/zbirnyk-osnovnykh-dokumentiv/documents/96-poriadok-pryiomu-ta-orhanizatsiia-roboty-v-aspiranturi-i-ad-iunkturi-universytetu">Порядок
+                                            прийому та організація роботи в докторантурі університету</a></li>
+                                    <li><a href="{% static "docs/Doctorantura_2020.pdf" %}">Правила прийому до
+                                        докторантури у 2020 році</a></li>
+                                    <li><a href="{% static "docs/doct_list_fab-2019.doc" %}">Список докторантів ННІ
+                                        «Інститут геології» станом на 1 лютого 2019 р.</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

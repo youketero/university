@@ -1,0 +1,98 @@
+{% extends "base/base.html" %}
+
+{% block content %}
+    <div id="content" class="content content-full mt-5">
+        <div class="container container-bg">
+            <div class="content-main-inner">
+                <div class="row">
+
+                    {% block aside %}
+                    {% endblock %}
+                    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 sidebar sidebar-right theiaStickySidebar ">
+                        <div class=" px-lg-5">
+                            <div class="views-element-container block block-views block-views-blockpost-other-block-1"
+                                 id="block-views-block-post-other-block-1">
+                                <h2 class="block-title"><span>Недавні новини</span></h2>
+                                <div class="content block-content">
+                                    <div>
+                                        <div class="post-style-list small js-view-dom-id-2dbb5552f705e4c9fcb84c4e04383eba66ce721b49080e8d28ecfb86fbe063d4">
+                                            <div class="item-list">
+                                                <ul>
+                                                    {% for article in all_article %}
+                                                        <li class="view-list-item">
+                                                            <div class="views-field views-field-nothing">
+                                                                <div class="field-content">
+                                                                    <div class="post-block">
+                                                                        <div class="post-image">
+                                                                            <a href="{% url "article" article.title %}"><img
+                                                                                    src="{{ article.image_head.url }}"
+                                                                                    alt="" typeof="Image"></a>
+                                                                        </div>
+                                                                        <div class="post-content">
+                                                                            <div class="post-title"><a
+                                                                                    href="{% url "article" article.title %}"
+                                                                                    hreflang="en">{{ article.title }}</a>
+                                                                            </div>
+                                                                            <div class="post-meta"><span
+                                                                                    class="post-created">{{ article.date|date:"d-m-Y" }}</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" px-lg-5">
+                            <div class="views-element-container block block-views block-views-blockpost-other-block-1"
+                                 id="block-views-block-post-other-block-1">
+                                <h2 class="block-title"><span>Оголошення</span></h2>
+                                <div class="content block-content">
+                                    <div>
+                                        <div class="post-style-list small js-view-dom-id-2dbb5552f705e4c9fcb84c4e04383eba66ce721b49080e8d28ecfb86fbe063d4">
+                                            <div class="item-list">
+                                                <ul>
+                                                    {% for article in info %}
+                                                        <li class="view-list-item">
+                                                            <div class="views-field views-field-nothing">
+                                                                <div class="field-content">
+                                                                    <div class="post-block">
+                                                                        <div class="post-image">
+                                                                            <a href="{% url "info_for_students_detailed" article.title %}"><img
+                                                                                    src="{{ article.image_head.url }}"
+                                                                                    alt="" typeof="Image"></a>
+                                                                        </div>
+                                                                        <div class="post-content">
+                                                                            <div class="post-title"><a
+                                                                                    href="{% url "info_for_students_detailed" article.title %}"
+                                                                                    hreflang="en">{{ article.title }}</a>
+                                                                            </div>
+                                                                            <div class="post-meta"><span
+                                                                                    class="post-created">{{ article.date|date:"d-m-Y" }}</span>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    {% endfor %}
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
