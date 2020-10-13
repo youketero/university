@@ -12,5 +12,5 @@ def vstup(request):
 
 def vstup_info(request, id):
     vs = get_object_or_404(entrance_specialization_way, code_id__specialization_id__specialization_name=id)
-    sub1 = entrance_specialization_way.objects.all()
+    sub1 = entrance_specialization_way.objects.filter(form_education="Бакалавр")
     return render(request, "entrance/vstup_info.html", locals())

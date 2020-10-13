@@ -6,6 +6,7 @@ from structure.models import stucture_cathed, structure_person
 
 def structure(request):
     cathed2 = stucture_cathed.objects.all()
+    cathed_count = stucture_cathed.objects.count()
     return render(request, "structure/structure.html", locals())
 
 

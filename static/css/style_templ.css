@@ -42243,6 +42243,17 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
     -ms-transition: all 3s;
 }
 
+
+.gsc-image-content .image2 img {
+    width: 100%;
+    height: 350px;
+    -webkit-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+    -moz-transition: all 3s;
+    -ms-transition: all 3s;
+}
+
 .gsc-image-content .image1 img {
     width: 100%;
     height: 100%;

@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.db import models
 
 # Create your models here.
-from django.utils.datetime_safe import datetime
 
 
 class library_author(models.Model):
@@ -16,8 +15,8 @@ class library_author(models.Model):
 class library_book(models.Model):
     name = models.TextField(default="enter name of the book")
     author_id = models.ManyToManyField(library_author)
-    foto = models.ImageField(upload_to='information_block/static/img', default="#")
-    link_for_download = models.FileField(default="enter hyper link here", upload_to="information_block/static/docs")
+    foto = models.ImageField(upload_to='library/foto', default="#")
+    link_for_download = models.FileField(default="enter hyper link here", upload_to="library/docs")
     published_in = models.DateField()
     type_of_book = models.TextField(default="enter type of book")
     user_id = models.ForeignKey(User, default=1, on_delete=models.CASCADE)

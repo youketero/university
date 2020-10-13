@@ -5,7 +5,7 @@
 {% endblock %}
 {% block content %}
 
-    <div id="content" class="content content-full">
+    <div id="content" class="content content-full mx-5">
         <div class="container container-bg">
             <div class="content-main-inner">
                 <div class="row ">
@@ -29,7 +29,7 @@
                                 <div class="post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7 ">
                                     <h4 class="px-4 ">ОКР бакалавр</h4>
                                     {% for program in sub_bac %}
-                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12 px-3 mb-4 mt-2">
                                             <div class="column-inner bg-size-cover ">
                                                 <div class="column-content-inner">
                                                     <div class="gsc-image-content margin-bottom-0 skin-v2">
@@ -38,7 +38,7 @@
                                                                                             alt="Design and renovation"></a>
                                                         </div>
                                                         <div class="content">
-                                                            <h4 class="title">{{ program.code_id.specialization_code }} {{ program.code_id.specialization_id.specialization_name }}</h4>
+                                                            <h4 class="title">{{ program.code_id.specialization_id.specialization_name }}</h4>
                                                             <div class="desc">
                                                                 <span class="font-weight-bold">Бали ЗНО для вступу</span>
                                                                 <ul class="font-weight-bold">
@@ -70,7 +70,7 @@
                                 <div class="post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7 ">
                                     <h4 class="px-4 ">ОКР магістр</h4>
                                     {% for program in sub_mag %}
-                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mt-2">
                                             <div class="column-inner bg-size-cover ">
                                                 <div class="column-content-inner">
                                                     <div class="gsc-image-content margin-bottom-0 skin-v2">
@@ -79,7 +79,7 @@
                                                                                             alt="Design and renovation"></a>
                                                         </div>
                                                         <div class="content">
-                                                            <h4 class="title">{{ program.code_id.specialization_code }} {{ program.code_id.specialization_id.specialization_name }}</h4>
+                                                            <h4 class="title">{{ program.code_id.specialization_id.specialization_name|slice:-5 }}</h4>
                                                             <div class="desc">
                                                                 <span class="font-weight-bold">Бали ЗНО для вступу</span>
                                                                 <ul class="font-weight-bold">

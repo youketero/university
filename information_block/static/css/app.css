@@ -344,3 +344,10 @@ a.more-link {
     border: 1px solid red;
     border-radius: 2px;
 }
+
+.cathed-line{
+    display: block;
+    background-color: #ffffff;
+    z-index: 10000000000000000;
+}
+

@@ -7,7 +7,7 @@
 
 {% block content %}
 
-    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5">
+    <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 mx-4">
         <div class="column-inner bg-size-cover container">
             <div class="column-content-inner">
                 <header>
@@ -33,11 +33,12 @@
                                     <div class="post-content p-0 ">
                                         <ul class="font-weight-bold">
                                             <li><a href="{% url "vstup" %}">Освітні програми</a></li>
-                                            <li><a href="#">Про організацію навчального процесу</a></li>
+                                            <li><a href="{% static "docs/Poloz_org_osv_proc-2018.pdf" %}">Про організацію навчального процесу</a></li>
                                             <li><a href="{% url "edu_plan" %}">Навчальні плани</a></li>
-                                            <li><a href="#">Перелік іспитів та заліків</a></li>
-                                            <li><a href="#">Перечень экзаменов и зачетов, группа "Науки о Земле
-                                                и преподавание геолого-географических дисциплин</a></li>
+                                            <li><a href="{% static "docs/session_2019-20_II.pdf" %}">Перелік іспитів та заліків</a></li>
+                                            <li><a href="{% static "docs/session_2019-20_II_ru.pdf" %}">Перечень экзаменов и
+                                                                    зачетов, группа "Науки о Земле и преподавание
+                                                                    геолого-географических дисциплин</a></li>
                                         </ul>
                                     </div>
                                 </article>
@@ -103,11 +104,11 @@
                                                     <div class="mt-3"><h4>Документи</h4></div>
                                                     <div style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);"></div>
                                                     <ul class="font-weight-bold mt-2">
-                                                        <li><a href="#">Направлення на практику</a></li>
-                                                        <li><a href="#">Щоденник практики</a></li>
-                                                        <li><a href="#">Договір з підприємством на проведення
+                                                        <li><a href="{% static "docs/pract_napravl.doc" %}">Направлення на практику</a></li>
+                                                        <li><a href="{% static "docs/pract_schodennyk.doc" %}">Щоденник практики</a></li>
+                                                        <li><a href="{% static "docs/Dogovir_Pidpryemstvo_Shablon.doc" %}">Договір з підприємством на проведення
                                                             практик</a></li>
-                                                        <li><a href="#">Положення про проведення практик студентів
+                                                        <li><a href="{% static "docs/pract_polozhennja.pdf" %}">Положення про проведення практик студентів
                                                             геологічного факультету</a></li>
                                                     </ul>
                                                 </div>
@@ -122,9 +123,9 @@
                                         <div class="post-content">
                                             <div class="post-block ">
                                                 <ul class="font-weight-bold">
-                                                    <li><a href="#">EAGE</a></li>
-                                                    <li><a href="#">Imperial Barrel Award</a></li>
-                                                    <li><a href="#">SEG</a></li>
+                                                    <li><a href="https://students.eage.org/?evp=5095&ActiveMenu=31">EAGE</a></li>
+                                                    <li><a  href="https://www.aapg.org/">AAPG</a></li>
+                                                    <li><a  href="https://seg.org/Default.aspx?TabId=176&language=en-US">SEG</a></li>
                                                 </ul>
                                             </div>
                                         </div>

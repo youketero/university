@@ -6,8 +6,10 @@ from django.shortcuts import render, get_object_or_404
 from django.views import View
 from photologue.models import Gallery
 
+import structure
 from entrance.models import entrance_specialization_way
 from information_block.models import Partner, Articles, Info, future_conference_anonce
+from structure.models import stucture_cathed
 
 
 def home(request):
@@ -15,7 +17,9 @@ def home(request):
     foto_galery = Gallery.objects.all()
     partners = Partner.objects.all()
     future_conference_anonce_full = future_conference_anonce.objects.all()
-    sub = entrance_specialization_way.objects.all()
+    sub = entrance_specialization_way.objects.filter(form_education="Бакалавр")
+    mag = entrance_specialization_way.objects.filter(form_education="Магістр")
+    cathed = stucture_cathed.objects.all()
     info = Info.objects.order_by("id").reverse()[:8]
     return render(request, 'information_block/home.html', locals())
 
@@ -32,7 +36,7 @@ def partneru(request):
 
 def news(request):
     articles = Articles.objects.order_by('id').reverse()
-    paginator = Paginator(articles, 5)
+    paginator = Paginator(articles, 10)
     page = request.GET.get('page')
     contacts = paginator.get_page(page)
     all_article = Articles.objects.order_by('id').reverse()[:8]
@@ -86,8 +90,8 @@ class search(View):
         if query is not None:
             query = self.request.GET.get('q')
             if query:
-                articles = Articles.objects.annotate(search=SearchVector('title')).filter(search=query)
-                partners = Partner.objects.annotate(search=SearchVector('name')).filter(search=query)
+                articles = Articles.objects.filter(title=query)
+                partners = Partner.objects.filter(name=query)
         return render(request, "information_block/search_results.html", locals())
 
 

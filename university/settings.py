@@ -11,7 +11,8 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-
+import mimetypes
+mimetypes.add_type("text/javascript", ".js", True)
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -21,13 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-
+SECRET_KEY = '*jgzg=6j(su^gwwtd0(nzv-o3wbk%k=sh$tqiq3o+s2&(dt6d8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
-ALLOWED_HOSTS = ["127.0.0.1","localhost"]
+ALLOWED_HOSTS = ["127.0.0.1","localhost","www.geology.","geology.knu.ua"]
 
 
 # Application definition
@@ -72,9 +72,11 @@ EMAIL_USE_TLS = True
 EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_HOST_USER = "youketeroamano22@gmail.com"
-EMAIL_HOST_PASSWORD = ""
+EMAIL_HOST_PASSWORD = "wnietixqlgnaykdo"
 EMAIL_PORT = 587
 
+X_FRAME_OPTIONS = 'ALLOWALL'
+XS_SHARING_ALLOWED_METHODS = ['GET']
 
 TEMPLATES = [
     {
@@ -102,24 +104,16 @@ WSGI_APPLICATION = 'university.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 DATABASES = {
-    #If use another database delete this database
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': "university_web",
-        'USER':"youkio",
-        'PASSWORD':'',
-        'HOST':'',
-        'PORT':''
-    }
+
     # IF use MySQL database
-    #'default': {
-    #    'ENGINE': 'django.db.backends.mysql',
-    #    'NAME': "university_web",
-    #    'USER':"USER_NAME", Change  username
-    #    'PASSWORD':'PASSWORD', Change password
-    #    'HOST':'HOST', Change host
-    #    'PORT':'3306'
-    #}
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': "university",
+        'USER':"root",
+        'PASSWORD':'718397',
+        'HOST':'localhost',
+        'PORT':'3306'
+    }
 
 }
 
@@ -161,7 +155,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/information_block/static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static/')
-MEDIA_ROOT = os.path.join(BASE_DIR,'media/img/')
+MEDIA_ROOT = os.path.join(BASE_DIR,'media/')
 MEDIA_URL = '/img/'

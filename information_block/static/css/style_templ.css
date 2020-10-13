@@ -6294,7 +6294,7 @@ img.tp-slider-alternative-image {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Roboto Slab"
+    font-family: "Roboto Slab";
     margin-bottom: 5px;
 }
 
@@ -6934,7 +6934,7 @@ img.tp-slider-alternative-image {
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: "Roboto Slab"
+    font-family: "Roboto Slab";
     margin-bottom: 5px;
 }
 
@@ -30699,6 +30699,7 @@ body.copyright-fixed .copyright {
     font-size: 14px;
     background: #FFFFFF;
     line-height: 28px;
+    background: url('../img/25547.jpg') no-repeat center center;
 }
 
 .footer .footer-top .before-footer {
@@ -30749,6 +30750,7 @@ body.footer-fixed #footer {
     left: 0;
     z-index: 1;
     width: 100%;
+
 }
 
 @media (max-width: 991px) {
@@ -40945,7 +40947,7 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 .widget.gsc-icon-box .highlight-icon .icon-container {
     text-align: center;
     line-height: 1;
-    position: relative;
+    position: relative
 }
 
 .widget.gsc-icon-box .highlight-icon .icon-container .icon {
@@ -44894,3 +44896,13 @@ ul[data-drupal-views-infinite-scroll-pager].pager a:hover, ul[data-drupal-views-
 #lg-zoom-in:after {
 
 }
+
+.boxi {
+    transition: transform 1s;
+}
+
+.boxi:hover {
+    -webkit-transform: translateY(5px);
+    transform: translateY(5px);
+}
+

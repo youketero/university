@@ -56,7 +56,7 @@
                                                                 <ul class="pager__items js-pager__items">
                                                                     {% if contacts.has_previous %}
                                                                         <li class="pager__item">
-                                                                            <a href="?page=1">&laquo; first</a>
+                                                                            <a href="?page=1">&laquo;</a>
                                                                         </li>
                                                                         <li class="pager__item">
                                                                             <a href="?page={{ contacts.previous_page_number }}">{{ contacts.previous_page_number }}</a>
@@ -71,7 +71,7 @@
                                                                         </li>
                                                                         <li class="pager__item">
                                                                             <a href="?page={{ contacts.paginator.num_pages }}">
-                                                                                <span aria-hidden="true">Last »</span>
+                                                                                <span aria-hidden="true">»</span>
                                                                             </a>
                                                                         </li>
                                                                     {% endif %}

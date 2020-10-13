@@ -19,17 +19,14 @@
                                 <div class="content-inner">
                                     <div class="field field--name-field-team-contact field--type-string field--label-hidden field__items">
                                         <div class="field__item">Телефон : {{ teacher.phone_number }}</div>
-                                        <div class="field__item">Email : sanbro@gmail.com</div>
+                                        <div class="field__item">Email : {{ teacher.email }}</div>
                                     </div>
                                 </div>
                                 <div class="socials mt-3">
-                                    <a class="gva-social" href="#"> <i
+                                    <a class="gva-social" href="{{ teacher.link_to_facebook }}"> <i
                                             class="fab fa-facebook"></i> </a>
-                                    <a class="gva-social" href="#"> <i
+                                    <a class="gva-social" href="{{ teacher.link_to_twitter }}"> <i
                                             class="fab fa-twitter"></i> </a>
-                                    <a class="gva-social" href="#"> <i
-                                            class="fab fa-linkedin-square"></i>
-                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +37,7 @@
                             </div>
                             <div class="team-description">
                                 <div class="pretty-letter field field--name-field-team-description field--type-text-long field--label-hidden field__item">
-                                    <p>{{ teacher.short_history|linebreaksbr }}</p>
+                                    <p>{{ teacher.short_history|safe }}</p>
                                 </div>
                             </div>
                             <div class="team-info mt-4">
@@ -48,7 +45,7 @@
                                     <div class="heading">Роботи викладача</div>
                                     <div class="content-inner">
                                         <div class="field field--name-field-team-education field--type-string field--label-hidden field__items">
-                                            <div class="field__item">{{ teacher.monography }}</div>
+                                            <div class="field__item">{{ teacher.monography|safe }}</div>
                                         </div>
                                     </div>
                                 </div>

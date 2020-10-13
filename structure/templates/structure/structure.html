@@ -1,5 +1,5 @@
 {% extends "base/base.html" %}
-
+{% load static %}
 
 {% block title %}
     Structure
@@ -7,13 +7,13 @@
 
 {% block content %}
 
-    <div class="body-page gva-body-page mt-5">
+    <div class="body-page gva-body-page mt-4 pt-2">
         <div role="main" class="main main-page ">
             <div id="content" class="content content-full">
                 <div class="container container-bg">
                     <div class="content-main-inner">
                         <div class="row">
-                            <div id="page-main-content" class="main-content  col-lg-8 col-xs-12 col-md-8 ">
+                            <div id="page-main-content" class="main-content  col-lg-12 col-xs-12 col-md-12 ">
                                 <div class="main-content-inner">
                                     <div class="content-main">
                                         <div class="container">
@@ -26,23 +26,30 @@
                                                             class="second"></span><span class="three"></span></div>
                                                 </div>
                                                 <div class="title-desc">
-                                                    <p>
-                                                        <span>В нашому інституті функціонує 7 кафедр</span>
-                                                    </p>
+                                                    <h5>
+                                                        <span>В нашому інституті функціонує {{ cathed_count }} кафедр(и)</span>
+                                                    </h5>
                                                 </div>
                                             </header>
                                             <div>
-                                                <div class="mt-4">
-                                                    <div class="post-block">
-                                                        {% for cathed in cathed2 %}
-                                                            <div class="pt-2">
-                                                                <div class="post-title"><a
-                                                                        href="{% url "cathed_name" cathed.cathed_name %}">{{ cathed.cathed_name_rus }}</a>
+                                             {% for cathed in cathed2 %}
+                                                <div class="gsc-column col-lg-4 col-md-12 col-sm-12 col-xs-12 p-0 mt-sm-5 mt-lg-0 mt-md-5 mt-5 ">
+                                                    <div class="column-inner bg-size-cover ">
+                                                        <div class="column-content-inner">
+                                                            <div class="gsc-image-content margin-bottom-0 skin-v2">
+                                                                <div class="image"><a href="#"><img class="cover"
+                                                                                                    src="{{ cathed.foto_logo.url }}"
+                                                                                                    alt="Design and renovation"></a>
                                                                 </div>
+                                                                    <div class="content">
+                                                                        <h4 class="title">{{ cathed.cathed_name_rus }}</h4>
+                                                                        <div class="action"> <a href="{% url "cathed_name" cathed.cathed_name %}">Перейти</a></div>
+                                                                    </div>
                                                             </div>
-                                                        {% endfor %}
+                                                        </div>
                                                     </div>
                                                 </div>
+                                            {% endfor %}
                                             </div>
                                         </div>
                                     </div>
@@ -54,5 +61,6 @@
             </div>
         </div>
     </div>
+
 
 {% endblock %}
