@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.db import models
 from photologue.models import Photo
 # Create your models here.
-from taggit.managers import TaggableManager
 
 
 class Articles(models.Model):
@@ -13,7 +12,6 @@ class Articles(models.Model):
     link_facebook = models.TextField(default="Enter link here")
     link_telegram = models.TextField(default="Enter link here")
     link_twitter = models.TextField(default="Enter link here")
-    tags = TaggableManager()
     user_id = models.ForeignKey(User, default=1, on_delete=models.CASCADE)
 
     class Meta:
