@@ -47,6 +47,13 @@
                                                                     <div class="post-title"><a
                                                                             href="{% url "article" article.title %}"
                                                                             hreflang="en">{{ article.title }}</a></div>
+                                                                    <div class="post-meta"><p>
+                                                                        {% for tag in article.tags.all %}
+                                                                            <a href="{% url "post_list_by_tag" tag.slug %}">
+                                                                                {{ tag.name }}
+                                                                            </a>
+                                                                            {% if not forloop.last %} &#8226 {% endif %}
+                                                                        {% endfor %}</p></div>
                                                                     <div class="post-meta ">
                                                                         <div class="post-meta"><span
                                                                                                 class="post-categories"><span

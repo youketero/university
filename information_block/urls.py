@@ -10,6 +10,7 @@ urlpatterns = [
     url(r'^anonce/$', information_block.views.anonce1, name="anonce"),
     url(r'^anonce/(?P<anonce_id>.*)/$', information_block.views.anonce_detail, name='anonce_detail'),
     url(r'^news/$', information_block.views.news, name="news"),
+    url(r'^tag/(?P<tag_slug>[-\w]+)/$', information_block.views.news, name='post_list_by_tag'),
     url(r'^partner/$', information_block.views.partneru, name="partner"),
     url(r'^contact/$', information_block.views.contact, name="contact"),
     url(r'^info/$', information_block.views.info, name="info"),

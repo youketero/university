@@ -6,6 +6,7 @@ from django.shortcuts import render, get_object_or_404
 from django.views import View
 from photologue.models import Gallery
 
+from taggit.models import Tag
 from entrance.models import entrance_specialization_way
 from information_block.models import Partner, Articles, Info, future_conference_anonce
 from structure.models import stucture_cathed
@@ -33,8 +34,14 @@ def partneru(request):
     info = Info.objects.order_by("id").reverse()[:8]
     return render(request, 'information_block/partner.html', locals())
 
-def news(request):
+def news(request, tag_slug=None):
     articles = Articles.objects.order_by('id').reverse()
+
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        articles = articles.filter(tags__in=[tag])
+
     paginator = Paginator(articles, 10)
     page = request.GET.get('page')
     try:
