@@ -49,8 +49,7 @@ INSTALLED_APPS = [
     'structure',
     'learning',
     'entrance',
-    'gallery',
-    'taggit'
+    'gallery'
 
 ]
 
