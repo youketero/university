@@ -2,62 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9d87dea5-0da6-4f63-8ba3-7949c1c29571" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/migrations/0002_auto_20201013_2053.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/migrations/0004_auto_20201013_2109.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/migrations/0005_auto_20201013_2112.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/migrations/0006_delete_foto_article.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/migrations/0007_articles_tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/information_block/static/js/main11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/templates/base/aside.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/aside.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/templates/base/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/base_generic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gallery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0002_info.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0003_auto_20200323_2229.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0004_auto_20200519_2249.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0005_auto_20200520_0054.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0006_auto_20200520_0113.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0007_auto_20200520_0115.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0008_auto_20200520_0132.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0009_auto_20200520_0137.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0010_auto_20200520_0212.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0011_auto_20200520_0215.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0012_auto_20200520_0217.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0013_auto_20200522_2050.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0014_auto_20200606_1531.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0015_partner_foto_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/migrations/0003_auto_20201013_2104.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/migrations/0016_remove_partner_foto_id.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/css/style_temp.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/style_temp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/css/style_templ.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/style_templ.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080_sEmZySU.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/img/cropped-books2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/cropped-books2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/static/img/sheva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/sheva.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/Information.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/Information.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/anonce.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/anonce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/article.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/news.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/partner.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/search_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/search_results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/information_block/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learning/templates/learning/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning/templates/learning/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/cropped-books2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/cropped-books2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/sheva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/sheva.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/templates/structure/cathed.html" beforeDir="false" afterPath="$PROJECT_DIR$/structure/templates/structure/cathed.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/structure/templates/structure/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/structure/templates/structure/structure.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/university/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/university/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -100,12 +45,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/home.html">
+    <leaf>
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/university/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="757" column="87" selection-start-line="757" selection-start-column="87" selection-end-line="757" selection-end-column="87" />
+            <state relative-caret-position="196">
+              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -113,8 +58,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/information_block/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+            <state relative-caret-position="85">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#43#0" expanded="true" />
               </folding>
@@ -122,73 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style_templ.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_block/static/css/style_templ.css">
+      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_block/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_block/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/templates/library/library.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="97" column="69" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="permission_base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/templates/library/permission_base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth_tag.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/templatetags/auth_tag.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/news.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="51" column="76" lean-forward="true" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_block/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="12" column="92" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="92" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -231,6 +114,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tag_id_new" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -279,13 +167,13 @@
         <option value="$PROJECT_DIR$/base/templates/base/base.html" />
         <option value="$PROJECT_DIR$/information_block/static/css/app.css" />
         <option value="$PROJECT_DIR$/base/templates/base/base_generic.html" />
-        <option value="$PROJECT_DIR$/university/settings.py" />
         <option value="$PROJECT_DIR$/information_block/models.py" />
         <option value="$PROJECT_DIR$/information_block/urls.py" />
         <option value="$PROJECT_DIR$/information_block/views.py" />
         <option value="$PROJECT_DIR$/information_block/static/css/style_templ.css" />
         <option value="$PROJECT_DIR$/information_block/templates/information_block/news.html" />
         <option value="$PROJECT_DIR$/information_block/templates/information_block/home.html" />
+        <option value="$PROJECT_DIR$/university/settings.py" />
       </list>
     </option>
   </component>
@@ -320,37 +208,6 @@
             <path>
               <item name="university" type="b2602c69:ProjectViewProjectNode" />
               <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="information_block" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="information_block" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="university" type="b2602c69:ProjectViewProjectNode" />
-              <item name="university" type="462c0819:PsiDirectoryNode" />
-              <item name="information_block" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="information_block" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -534,11 +391,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Django tests.Test: " />
         <item itemvalue="Django tests.Test: entrance.tests.ViewTest.test_view" />
         <item itemvalue="Django tests.Test: entrance.tests.ModelTestentracne" />
-        <item itemvalue="Django tests.Test: entrance.tests.ModelTest" />
         <item itemvalue="Django tests.Test: entrance.tests.ModelTest.test_object_name_is_last_name_comma_first_name" />
+        <item itemvalue="Django tests.Test: entrance.tests.ModelTest" />
+        <item itemvalue="Django tests.Test: " />
       </list>
     </recent_temporary>
   </component>
@@ -560,7 +417,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602609438944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add up to date files and directories">
+      <created>1603020879013</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603020879013</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add up to date files and directories">
+      <created>1603020924783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603020924783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -605,58 +476,72 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3869969" />
-      <window_info anchor="bottom" id="manage.py@university" order="12" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5091603" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32972136" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33281735" />
-      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" visible="true" weight="0.4473684" />
+      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" weight="0.4473684" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32817337" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22012103" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
-      <window_info anchor="right" id="SciView" order="4" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32980332" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
+      <window_info anchor="right" id="SciView" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3869969" />
+      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" visible="true" weight="0.4473684" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33281735" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32817337" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32817337" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5091603" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="manage.py@project" order="10" sideWeight="0.49389312" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="manage.py@university" order="12" weight="0.32972136" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" weight="0.32972136" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33387887" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" weight="0.32972136" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5091603" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="manage.py@project" order="10" sideWeight="0.49389312" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="manage.py@university" order="14" visible="true" weight="0.32972136" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33387887" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -701,13 +586,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/galery_type.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -719,9 +597,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -822,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
           <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#446#3739#0#HTML" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,23 +756,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/university/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/information_block/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -948,9 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret column="558710" selection-start-column="558710" selection-end-column="558710" />
-          <folding>
-            <element signature="e#322451#327430#1" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,6 +824,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="757" column="87" selection-start-line="757" selection-start-column="87" selection-end-line="757" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/university/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
