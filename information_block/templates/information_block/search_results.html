@@ -21,7 +21,7 @@
                                         <div class="post-block">
                                             <div class="post-image">
                                                 <a href="{% url "article" article.title %}"><img
-                                                        src="{{ article.image_head.url }}" alt="" typeof="Image"></a>
+                                                        src="{{ article.header_image.first.get_article_thumbnail_url }}" alt="" typeof="Image"></a>
                                             </div>
                                             <div class="post-content">
                                                 <div class="post-title"><a href="{% url "article" article.title %}"
@@ -46,5 +46,5 @@
                 </div>
             </div>
         </div>
-
+    </div>
 {% endblock %}

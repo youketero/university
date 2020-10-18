@@ -1,7 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d87dea5-0da6-4f63-8ba3-7949c1c29571" name="Default" comment="" />
+    <list default="true" id="9d87dea5-0da6-4f63-8ba3-7949c1c29571" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLinters/jslint.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/migrations/0002_auto_20201013_2053.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/migrations/0004_auto_20201013_2109.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/migrations/0005_auto_20201013_2112.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/migrations/0006_delete_foto_article.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/migrations/0007_articles_tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/information_block/static/js/main11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/aside.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/aside.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/templates/base/base_generic.html" beforeDir="false" afterPath="$PROJECT_DIR$/base/templates/base/base_generic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gallery/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/gallery/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0002_info.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0003_auto_20200323_2229.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0004_auto_20200519_2249.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0005_auto_20200520_0054.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0006_auto_20200520_0113.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0007_auto_20200520_0115.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0008_auto_20200520_0132.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0009_auto_20200520_0137.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0010_auto_20200520_0212.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0011_auto_20200520_0215.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0012_auto_20200520_0217.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0013_auto_20200522_2050.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0014_auto_20200606_1531.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0015_partner_foto_id.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/migrations/0003_auto_20201013_2104.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/migrations/0016_remove_partner_foto_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/css/style_temp.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/style_temp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/css/style_templ.css" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/css/style_templ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080_sEmZySU.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/img/cropped-books2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/cropped-books2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/static/img/sheva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/static/img/sheva.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/Information.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/Information.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/anonce.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/anonce.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/article.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/article.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/news.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/partner.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/partner.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/templates/information_block/search_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/templates/information_block/search_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/information_block/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/information_block/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/templates/learning/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/learning/templates/learning/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/cropped-books2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/cropped-books2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/img/sheva.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/img/sheva.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/templates/structure/cathed.html" beforeDir="false" afterPath="$PROJECT_DIR$/structure/templates/structure/cathed.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structure/templates/structure/structure.html" beforeDir="false" afterPath="$PROJECT_DIR$/structure/templates/structure/structure.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/university/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/university/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,46 +82,30 @@
     <SUITE FILE_PATH="coverage/university$Test__entrance_tests_UrlTest_test_vstup_each.coverage" NAME="Test: entrance.tests.UrlTest.test_vstup_each Coverage Results" MODIFIED="1586115960742" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/university$Test__.coverage" NAME="Test:  Coverage Results" MODIFIED="1586126677755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/university/settings.py">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="e#84#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="41" column="123" selection-start-line="41" selection-start-column="123" selection-end-line="41" selection-end-column="123" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galery_type.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/galery_type.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="24" column="91" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="102" />
+            <state relative-caret-position="191">
+              <caret line="757" column="87" selection-start-line="757" selection-start-column="87" selection-end-line="757" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -71,28 +113,81 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/information_block/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
+            <state relative-caret-position="102">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/home.html">
+      <file leaf-file-name="style_templ.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_block/static/css/style_templ.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state>
+              <caret column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_block/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="library.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/templates/library/library.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="97" column="69" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="permission_base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/templates/library/permission_base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="auth_tag.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/templatetags/auth_tag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#27#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="news.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/news.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="51" column="76" lean-forward="true" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/university/urls.py">
+        <entry file="file://$PROJECT_DIR$/information_block/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+            <state relative-caret-position="153">
+              <caret line="12" column="92" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="92" />
               <folding>
-                <element signature="e#634#666#0" expanded="true" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,68 +200,92 @@
       <list>
         <option value="HTML File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>web</find>
+      <find>highlight-icon</find>
+      <find>active</find>
+      <find>.gsc-image-content .image img</find>
+      <find>footer</find>
+      <find>#footer</find>
+      <find>.footer</find>
+      <find>Тут по</find>
+      <find>revicons.woff</find>
+      <find>fa-solid-900.woff</find>
+      <find>if i.data</find>
+      <find>i(this).data(&quot;lightGallery&quot;)</find>
+      <find>happening</find>
+      <find>.image</find>
+      <find>image</find>
+      <find>.woff</find>
+      <find>revicons</find>
+      <find>ul.menu &gt;</find>
+      <find>body</find>
+      <find>body</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/structure/templates/teachers.html" />
+        <option value="$PROJECT_DIR$/learning/admin.py" />
+        <option value="$PROJECT_DIR$/learning/templates/learning/edu_plan.html" />
+        <option value="$PROJECT_DIR$/university/wsgi.py" />
+        <option value="$PROJECT_DIR$/base/templates/base/page404.html" />
+        <option value="$PROJECT_DIR$/university/urls.py" />
+        <option value="$PROJECT_DIR$/settings.py" />
+        <option value="$PROJECT_DIR$/learning/models.py" />
+        <option value="$PROJECT_DIR$/library/models.py" />
+        <option value="$PROJECT_DIR$/entrance/models.py" />
+        <option value="$PROJECT_DIR$/static/css/style_templ.css" />
+        <option value="$PROJECT_DIR$/structure/templates/structure/teacher_info.html" />
         <option value="$PROJECT_DIR$/structure/views.py" />
         <option value="$PROJECT_DIR$/structure/models.py" />
-        <option value="$PROJECT_DIR$/learning/models.py" />
-        <option value="$PROJECT_DIR$/structure/urls.py" />
-        <option value="$PROJECT_DIR$/learning/views.py" />
-        <option value="$PROJECT_DIR$/learning/urls.py" />
-        <option value="$PROJECT_DIR$/learning/admin.py" />
-        <option value="$PROJECT_DIR$/learning/templates/edu_plan.html" />
-        <option value="$PROJECT_DIR$/learning/templates/phd_learning.html" />
-        <option value="$PROJECT_DIR$/learning/templates/science_learning.html" />
-        <option value="$PROJECT_DIR$/learning/templates/education.html" />
-        <option value="$PROJECT_DIR$/entrance/templates/vstup.html" />
-        <option value="$PROJECT_DIR$/entrance/templates/vstup_info.html" />
-        <option value="$PROJECT_DIR$/entrance/urls.py" />
-        <option value="$PROJECT_DIR$/entrance/admin.py" />
-        <option value="$PROJECT_DIR$/structure/admin.py" />
-        <option value="$PROJECT_DIR$/structure/templates/cathed.html" />
-        <option value="$PROJECT_DIR$/library/templates/library/library.html" />
-        <option value="$PROJECT_DIR$/library/templates/library/permission_base.html" />
-        <option value="$PROJECT_DIR$/information_block/templates/information_block/Information.html" />
-        <option value="$PROJECT_DIR$/information_block/static/css/app.css" />
-        <option value="$PROJECT_DIR$/information_block/admin.py" />
-        <option value="$PROJECT_DIR$/base/templates/base/aside.html" />
-        <option value="$PROJECT_DIR$/gallery/urls.py" />
-        <option value="$PROJECT_DIR$/gallery/views.py" />
-        <option value="$PROJECT_DIR$/login/templates/registration/login.html" />
-        <option value="$PROJECT_DIR$/information_block/tests.py" />
-        <option value="$PROJECT_DIR$/library/tests.py" />
-        <option value="$PROJECT_DIR$/learning/tests.py" />
-        <option value="$PROJECT_DIR$/structure/tests.py" />
-        <option value="$PROJECT_DIR$/gallery/tests.py" />
-        <option value="$PROJECT_DIR$/entrance/tests.py" />
-        <option value="$PROJECT_DIR$/login/views.py" />
-        <option value="$PROJECT_DIR$/entrance/views.py" />
+        <option value="$PROJECT_DIR$/entrance/static/js/Entrance_script.js" />
+        <option value="$PROJECT_DIR$/login/models.py" />
+        <option value="$PROJECT_DIR$/login/admin.py" />
         <option value="$PROJECT_DIR$/entrance/templates/entrance/vstup.html" />
-        <option value="$PROJECT_DIR$/information_block/templates/information_block/article.html" />
+        <option value="$PROJECT_DIR$/entrance/templates/entrance/vstup_info.html" />
+        <option value="$PROJECT_DIR$/information_block/static/css/apps.css" />
+        <option value="$PROJECT_DIR$/information_block/static/css/bootstrap_min.css" />
+        <option value="$PROJECT_DIR$/information_block/admin.py" />
+        <option value="$PROJECT_DIR$/information_block/migrations/0017_auto_20201013_2038.py" />
+        <option value="$PROJECT_DIR$/information_block/migrations/0002_info.py" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/anonce.html" />
         <option value="$PROJECT_DIR$/information_block/templates/information_block/search_results.html" />
+        <option value="$PROJECT_DIR$/gallery/views.py" />
+        <option value="$PROJECT_DIR$/information_block/static/js/main11.js" />
+        <option value="$PROJECT_DIR$/information_block/static/js/main111.js" />
+        <option value="$PROJECT_DIR$/information_block/static/css/style.css" />
+        <option value="$PROJECT_DIR$/information_block/static/css/style_temp.css" />
+        <option value="$PROJECT_DIR$/base/templates/base/aside.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/article.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/Information.html" />
+        <option value="$PROJECT_DIR$/structure/templates/structure/structure.html" />
+        <option value="$PROJECT_DIR$/structure/templates/structure/cathed.html" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/partner.html" />
+        <option value="$PROJECT_DIR$/learning/templates/learning/education.html" />
+        <option value="$PROJECT_DIR$/library/templates/library/permission_base.html" />
         <option value="$PROJECT_DIR$/base/templates/base/base.html" />
+        <option value="$PROJECT_DIR$/information_block/static/css/app.css" />
+        <option value="$PROJECT_DIR$/base/templates/base/base_generic.html" />
+        <option value="$PROJECT_DIR$/university/settings.py" />
+        <option value="$PROJECT_DIR$/information_block/models.py" />
         <option value="$PROJECT_DIR$/information_block/urls.py" />
         <option value="$PROJECT_DIR$/information_block/views.py" />
-        <option value="$PROJECT_DIR$/base/templates/base/page404.html" />
-        <option value="$PROJECT_DIR$/entrance/models.py" />
-        <option value="$PROJECT_DIR$/university/urls.py" />
+        <option value="$PROJECT_DIR$/information_block/static/css/style_templ.css" />
+        <option value="$PROJECT_DIR$/information_block/templates/information_block/news.html" />
         <option value="$PROJECT_DIR$/information_block/templates/information_block/home.html" />
-        <option value="$PROJECT_DIR$/information_block/models.py" />
-        <option value="$PROJECT_DIR$/gallery/templates/gallery/gallery.html" />
-        <option value="$PROJECT_DIR$/gallery/templates/gallery/galery_type.html" />
-        <option value="$PROJECT_DIR$/www/settings.py" />
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$PROJECT_DIR$/university/settings.py" />
       </list>
     </option>
   </component>
@@ -180,11 +299,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="44" />
-    <option name="y" value="13" />
-    <option name="width" value="1308" />
-    <option name="height" value="728" />
+    <option name="x" value="25" />
+    <option name="y" value="6" />
+    <option name="width" value="1254" />
+    <option name="height" value="768" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -196,6 +316,42 @@
             <path>
               <item name="university" type="b2602c69:ProjectViewProjectNode" />
               <item name="university" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="information_block" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="information_block" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="university" type="b2602c69:ProjectViewProjectNode" />
+              <item name="university" type="462c0819:PsiDirectoryNode" />
+              <item name="information_block" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="information_block" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="university" type="b2602c69:ProjectViewProjectNode" />
@@ -213,6 +369,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../website" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.path.for.package.jscs" value="project" />
     <property name="node.js.selected.package.jscs" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
@@ -221,19 +378,19 @@
     <property name="settings.editor.splitter.proportion" value="0.22428991" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\university" />
-      <recent name="C:\Users\User\Desktop\university\structure\templates\structure" />
-      <recent name="C:\Users\User\Desktop\university\learning\templates\learning" />
-      <recent name="C:\Users\User\Desktop\university\entrance\templates\entrance" />
-      <recent name="C:\Users\User\Desktop\university\base\templates\base" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\university\information_block\templates\information_block" />
       <recent name="C:\Users\User\Desktop\university\gallery\templates\gallery" />
       <recent name="C:\Users\User\Desktop\university\gallery" />
       <recent name="C:\Users\User\Desktop\university\entrance\templates" />
       <recent name="C:\Users\User\Desktop\university\entrance" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\university" />
+      <recent name="C:\Users\User\Desktop\university\structure\templates\structure" />
+      <recent name="C:\Users\User\Desktop\university\learning\templates\learning" />
+      <recent name="C:\Users\User\Desktop\university\entrance\templates\entrance" />
+      <recent name="C:\Users\User\Desktop\university\base\templates\base" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -396,6 +553,14 @@
       <option name="presentableId" value="Default" />
       <updated>1584471738452</updated>
     </task>
+    <task id="LOCAL-00001" summary="add up to date files and directories">
+      <created>1602609438943</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602609438944</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -430,59 +595,68 @@
       <configuration name="Test: " configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="manage.py@university" order="12" weight="0.0" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3869969" />
+      <window_info anchor="bottom" id="manage.py@university" order="12" weight="0.32972136" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5091603" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33281735" />
-      <window_info active="true" anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" visible="true" weight="0.32198143" />
+      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" visible="true" weight="0.4473684" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32817337" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30408472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32817337" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3290469" />
       <window_info anchor="right" id="SciView" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32980332" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32980332" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32817337" />
       <window_info anchor="bottom" id="manage.py@project" order="10" sideWeight="0.49389312" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" weight="0.32972136" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18910742" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="5" y="294" width="1310" height="216" id="Run" order="2" sideWeight="0.4908397" weight="0.32972136" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33387887" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5091603" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="manage.py@project" order="10" sideWeight="0.49389312" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="SciView" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32977098" />
       <window_info anchor="bottom" id="manage.py@university" order="14" visible="true" weight="0.32972136" />
-      <window_info anchor="bottom" id="Python Console" order="8" sideWeight="0.49389312" weight="0.33387887" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -491,262 +665,313 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add up to date files and directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="add up to date files and directories" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/library/views.py">
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0017_auto_20201013_2038.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0016_remove_partner_foto_id.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0015_partner_foto_id.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0014_auto_20200606_1531.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0013_auto_20200522_2050.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0002_info.py" />
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/news.html">
+    <entry file="file://$PROJECT_DIR$/information_block/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="717">
-          <caret line="56" column="91" selection-start-line="56" selection-start-column="91" selection-end-line="56" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entrance/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" column="71" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/entrance/templates/entrance/vstup.html">
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/search_results.html">
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/anonce.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <caret line="34" column="145" selection-start-line="34" selection-start-column="145" selection-end-line="34" selection-end-column="145" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/templates/base/base.html">
+    <entry file="file://$PROJECT_DIR$/information_block/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="164" column="70" selection-start-line="164" selection-start-column="70" selection-end-line="164" selection-end-column="70" />
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/models.py">
+    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/galery_type.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-175" />
+        <state relative-caret-position="442">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/structure/models.py">
+    <entry file="file://$PROJECT_DIR$/gallery/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/entrance/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/models.py">
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/search_results.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="91" lean-forward="true" selection-start-line="91" selection-end-line="91" />
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
           <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="n#block#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/bootstrap.bundle.min.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/templates/base/page404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/anonce_detail.html">
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/bootstrap.bundle.min.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/templatetags/static.py">
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/bootstrap.bundle.js.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/bootstrap.bundle.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/lg-thumbnail.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/main1.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/lightgallery.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/main111.js" />
+    <entry file="file://$PROJECT_DIR$/information_block/static/css/apps.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="143" selection-end-column="4" />
+        <state>
+          <caret column="5056" selection-start-column="5056" selection-end-column="5056" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/exam.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/lightgallery.js">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/101515-podkova-otkos-geologiya-nebo-peyzash-1920x1080_sEmZySU.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/1b-po-dlya-raboty-s-web-jetbrains-pycharm-commercial-annual_vp6xwQL.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/1-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/Бухта-песен-300x471_Z28LTBv_ik6XtjN.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/c02f4f003fc681f368e4_content_big_87fde87d.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/contact-2-n5pmtc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/razrabot-plan.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/paln_edu.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/user-maria-freeman-90x90.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/sheva.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/1b-po-dlya-raboty-s-web-jetbrains-pycharm-commercial-annual_vp6xwQL.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/1-5.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/unnamed.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photologue/photos/cache/1-5_display.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/contact-2-n5pmtc.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/razrabot-plan.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/static/img/Blank_Diagram_1.jpeg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/depositphotos_193561244-stock-illustration-geographic-information-system-gis-flat.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/depositphotos_116475754-stock-photo-science-concept-geophysics-on-wall.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/anonce.html">
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/main2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-187">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        <state relative-caret-position="112">
+          <caret line="23735" column="45" selection-start-line="23735" selection-start-column="45" selection-end-line="23735" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/university/urls.py">
+    <entry file="file://$PROJECT_DIR$/information_block/static/js/main11.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        <state relative-caret-position="299">
+          <caret line="15" column="7724" selection-end-line="25" selection-end-column="21303" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="228355" selection-start-column="228355" selection-end-column="228355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/info_for_students.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-136">
+          <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-629">
+          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/info_for_students_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/templates/base/aside.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
           <folding>
-            <element signature="e#634#666#0" expanded="true" />
+            <element signature="e#446#3739#0#HTML" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/home.html">
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/Information.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        <state relative-caret-position="136">
+          <caret line="8" column="82" selection-start-line="8" selection-start-column="82" selection-end-line="8" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/templates/structure/cathed.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="103" selection-start-line="8" selection-start-column="103" selection-end-line="8" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learning/templates/learning/education.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/partner.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="84" selection-start-line="8" selection-start-column="84" selection-end-line="8" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structure/templates/structure/structure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="111" selection-start-line="15" selection-start-column="111" selection-end-line="15" selection-end-column="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/css/app.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="362" column="24" selection-start-line="362" selection-start-column="24" selection-end-line="362" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/templates/base/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="315" column="119" selection-start-line="315" selection-start-column="119" selection-end-line="315" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/templates/base/base_generic.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/information_block/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="66" column="35" selection-start-line="66" selection-start-column="35" selection-end-line="66" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/photologue/photos/cache/1200px-Python-logo-notext.svg_display.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/photologue/photos/cache/1200px-Python-logo-notext.svg_thumbnail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/photologue/photos/cache/1200px-Python-logo-notext.svg_admin_thumbnail.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/photologue/photos/1200px-Python-logo-notext.svg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/media/img/247527444_185114.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="41" column="123" selection-start-line="41" selection-start-column="123" selection-end-line="41" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gallery/templates/gallery/galery_type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="91" selection-start-line="24" selection-start-column="91" selection-end-line="24" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/photologue/photos/cache/1-5_admin_thumbnail.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="102">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <element signature="e#84#93#0" expanded="true" />
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/university/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="149" column="23" lean-forward="true" selection-start-line="149" selection-start-column="23" selection-end-line="149" selection-end-column="23" />
+        <state relative-caret-position="247">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="92" selection-start-line="12" selection-start-column="76" selection-end-line="12" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="44" column="38" selection-start-line="44" selection-start-column="38" selection-end-line="44" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templatetags/auth_tag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/permission_base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/templates/library/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="97" column="69" selection-start-line="97" selection-start-column="69" selection-end-line="97" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/css/style_temp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret column="558710" selection-start-column="558710" selection-end-column="558710" />
+          <folding>
+            <element signature="e#322451#327430#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/static/css/style_templ.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="51" column="76" lean-forward="true" selection-start-line="51" selection-start-column="76" selection-end-line="51" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/information_block/templates/information_block/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="757" column="87" selection-start-line="757" selection-start-column="87" selection-end-line="757" selection-end-column="87" />
         </state>
       </provider>
     </entry>

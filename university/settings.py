@@ -49,7 +49,8 @@ INSTALLED_APPS = [
     'structure',
     'learning',
     'entrance',
-    'gallery'
+    'gallery',
+    'taggit'
 
 ]
 
@@ -108,7 +109,7 @@ DATABASES = {
     # IF use MySQL database
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': "university",
+        'NAME': "univers",
         'USER':"root",
         'PASSWORD':'718397',
         'HOST':'localhost',

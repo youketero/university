@@ -10,5 +10,5 @@ def galery(request):
 
 
 def show_galery(request, header_foto):
-    show_galery = Photo.objects.filter(title__startswith=header_foto)
+    show_galery = Photo.objects.filter(slug__startswith=header_foto)
     return render(request, 'gallery/galery_type.html', locals())

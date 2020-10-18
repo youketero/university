@@ -6,7 +6,7 @@
 {% endblock %}
 
 {% block aside %}
-            <div id="page-main-content" class="main-content col-xs-12 col-md-8 sb-r ">
+            <div id="page-main-content" class="main-content col-xs-12 col-md-8 sb-r px-0">
                 <div class="main-content-inner">
                     <div class="content-main">
                         <div>
@@ -44,14 +44,14 @@
                                                                                     <div class="column-inner bg-size-cover ">
                                                                                         <div class="column-content-inner">
                                                                                             {% for partner in partner_each %}
-                                                                                                <div class="widget gsc-our-partners ">
-                                                                                                    <div class="image ">
+                                                                                                <div class="row">
+                                                                                                    <div class="image col-lg-4 col-md-6  col-sm-12 col-12 px-5 mt-5">
                                                                                                         <a href="{{ partner.hyper_link_site }}"><img
                                                                                                                 src="{{ partner.foto_logo.url }}"
                                                                                                                 alt=""></a>
                                                                                                     </div>
-                                                                                                    <div class="content-inner ">
-                                                                                                        <div class="title"><a href="{{ partner.hyper_link_site }}">{{ partner.name }}</a></div>
+                                                                                                    <div class="content-inner mt-5 col-lg-8 col-md-6 col-sm-12 col-12 px-5">
+                                                                                                        <h5 class="title"><a href="{{ partner.hyper_link_site }}">{{ partner.name }}</a></h5>
                                                                                                         <div class="content">
                                                                                                             <p>{{ partner.short_information }}</p>
                                                                                                         </div>

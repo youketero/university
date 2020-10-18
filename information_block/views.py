@@ -1,12 +1,12 @@
 from django.contrib.postgres.search import SearchVector
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 from django.views import View
 from photologue.models import Gallery
 
-import structure
+from taggit.models import Tag
 from entrance.models import entrance_specialization_way
 from information_block.models import Partner, Articles, Info, future_conference_anonce
 from structure.models import stucture_cathed
@@ -34,11 +34,22 @@ def partneru(request):
     info = Info.objects.order_by("id").reverse()[:8]
     return render(request, 'information_block/partner.html', locals())
 
-def news(request):
+def news(request, tag_slug=None):
     articles = Articles.objects.order_by('id').reverse()
+
+    tag = None
+    if tag_slug:
+        tag = get_object_or_404(Tag, slug=tag_slug)
+        articles = articles.filter(tags__in=[tag])
+
     paginator = Paginator(articles, 10)
     page = request.GET.get('page')
-    contacts = paginator.get_page(page)
+    try:
+        contacts = paginator.get_page(page)
+    except PageNotAnInteger:
+        contacts=paginator.get_page(1)
+    except EmptyPage:
+        contacts = paginator.get_page(paginator.num_pages)
     all_article = Articles.objects.order_by('id').reverse()[:8]
     info = Info.objects.order_by("id").reverse()[:8]
     return render(request, "information_block/news.html", locals())

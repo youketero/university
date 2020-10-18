@@ -1,5 +1,5 @@
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     line-height: 1.8;
     color: #636363;
@@ -555,202 +555,6 @@ div.tree-child-horizontal {
 
 .cart-block--contents__price {
     float: right;
-}
-
-@font-face {
-    font-family: 'revicons';
-    src: url('/drupal/edmix/modules/gavias_sliderlayer/vendor/revolution/css/../fonts/revicons/revicons.eot?5510888');
-    src: url('/drupal/edmix/modules/gavias_sliderlayer/vendor/revolution/css/../fonts/revicons/revicons.eot?5510888#iefix') format('embedded-opentype'), url('/drupal/edmix/modules/gavias_sliderlayer/vendor/revolution/css/../fonts/revicons/revicons.woff?5510888') format('woff'), url('/drupal/edmix/modules/gavias_sliderlayer/vendor/revolution/css/../fonts/revicons/revicons.ttf?5510888') format('truetype'), url('/drupal/edmix/modules/gavias_sliderlayer/vendor/revolution/css/../fonts/revicons/revicons.svg?5510888#revicons') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-[class^="revicon-"]:before, [class*=" revicon-"]:before {
-    font-family: "revicons";
-    font-style: normal;
-    font-weight: normal;
-    speak: none;
-    display: inline-block;
-    text-decoration: inherit;
-    width: 1em;
-    margin-right: .2em;
-    text-align: center;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1em;
-    margin-left: .2em;
-}
-
-.revicon-search-1:before {
-    content: '\e802';
-}
-
-.revicon-pencil-1:before {
-    content: '\e831';
-}
-
-.revicon-picture-1:before {
-    content: '\e803';
-}
-
-.revicon-cancel:before {
-    content: '\e80a';
-}
-
-.revicon-info-circled:before {
-    content: '\e80f';
-}
-
-.revicon-trash:before {
-    content: '\e801';
-}
-
-.revicon-left-dir:before {
-    content: '\e817';
-}
-
-.revicon-right-dir:before {
-    content: '\e818';
-}
-
-.revicon-down-open:before {
-    content: '\e83b';
-}
-
-.revicon-left-open:before {
-    content: '\e819';
-}
-
-.revicon-right-open:before {
-    content: '\e81a';
-}
-
-.revicon-angle-left:before {
-    content: '\e820';
-}
-
-.revicon-angle-right:before {
-    content: '\e81d';
-}
-
-.revicon-left-big:before {
-    content: '\e81f';
-}
-
-.revicon-right-big:before {
-    content: '\e81e';
-}
-
-.revicon-magic:before {
-    content: '\e807';
-}
-
-.revicon-picture:before {
-    content: '\e800';
-}
-
-.revicon-export:before {
-    content: '\e80b';
-}
-
-.revicon-cog:before {
-    content: '\e832';
-}
-
-.revicon-login:before {
-    content: '\e833';
-}
-
-.revicon-logout:before {
-    content: '\e834';
-}
-
-.revicon-video:before {
-    content: '\e805';
-}
-
-.revicon-arrow-combo:before {
-    content: '\e827';
-}
-
-.revicon-left-open-1:before {
-    content: '\e82a';
-}
-
-.revicon-right-open-1:before {
-    content: '\e82b';
-}
-
-.revicon-left-open-mini:before {
-    content: '\e822';
-}
-
-.revicon-right-open-mini:before {
-    content: '\e823';
-}
-
-.revicon-left-open-big:before {
-    content: '\e824';
-}
-
-.revicon-right-open-big:before {
-    content: '\e825';
-}
-
-.revicon-left:before {
-    content: '\e836';
-}
-
-.revicon-right:before {
-    content: '\e826';
-}
-
-.revicon-ccw:before {
-    content: '\e808';
-}
-
-.revicon-arrows-ccw:before {
-    content: '\e806';
-}
-
-.revicon-palette:before {
-    content: '\e829';
-}
-
-.revicon-list-add:before {
-    content: '\e80c';
-}
-
-.revicon-doc:before {
-    content: '\e809';
-}
-
-.revicon-left-open-outline:before {
-    content: '\e82e';
-}
-
-.revicon-left-open-2:before {
-    content: '\e82c';
-}
-
-.revicon-right-open-outline:before {
-    content: '\e82f';
-}
-
-.revicon-right-open-2:before {
-    content: '\e82d';
-}
-
-.revicon-equalizer:before {
-    content: '\e83a';
-}
-
-.revicon-layers-alt:before {
-    content: '\e804';
-}
-
-.revicon-popup:before {
-    content: '\e828';
 }
 
 .rev_slider_wrapper {
@@ -8190,26 +7994,6 @@ img.tp-slider-alternative-image {
     right: -6px;
     bottom: -6px;
     z-index: 1;
-}
-
-@font-face {
-    font-family: "FontAwesome";
-    src: url("/web/static/web/fonts/webfonts/fa-brands-400.eot");
-    src: url("/web/static/web/fonts/webfonts/fa-brands-400.eot") format('embedded-opentype'),
-    url("/web/static/web/fonts/webfonts/fa-brands-400.woff") format('woff'),
-    url("/web/static/web/fonts/webfonts/fa-brands-400.ttf") format("truetype");
-    src: url("/web/static/web/fonts/webfonts/fa-regular-400.eot");
-    src: url("/web/static/web/fonts/webfonts/fa-regular-400.eot") format('embedded-opentype'),
-    url("/web/static/web/fonts/webfonts/fa-regular-400.woff") format('woff'),
-    url("/web/static/web/fonts/webfonts/fa-regular-400.ttf") format("truetype"),
-    url("../fonts/webfonts/fa-regular-400.svg") format('svg');
-    src: url("/web/static/web/fonts/webfonts/fa-solid-900.eot");
-    src: url("/web/static/web/fonts/webfonts/fa-solid-900.eot") format('embedded-opentype'),
-    url("/web/static/web/fonts/webfonts/fa-solid-900.woff") format('woff'),
-    url("/web/static/web/fonts/webfonts/fa-solid-900.ttf") format("truetype"),
-    url("../fonts/webfonts/fa-solid-900.svg") format('svg');
-    font-weight: normal;
-    font-style: normal
 }
 
 .fa {
@@ -24355,14 +24139,6 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 
-body {
-    font-family: "Open Sans", sans-serif;
-    font-size: 14px;
-    line-height: 1.8;
-    color: #636363;
-    background-color: #fff;
-    font-weight: 400;
-}
 
 input, button, select, textarea {
     font-family: inherit;
@@ -29947,8 +29723,8 @@ ul li i {
 ul.menu > li {
     position: relative;
     padding: 2px 0;
-    font-family: "Raleway", sans-serif;
-    font-weight: 600;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
 }
 
 ul.feature-list {
@@ -31419,7 +31195,7 @@ body.maintenance-page {
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
-    font-family: "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.5px;
 }
 

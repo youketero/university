@@ -351,3 +351,14 @@ a.more-link {
     z-index: 10000000000000000;
 }
 
+.position_caption{
+    display: inline;
+    z-index: 1000000000000;
+    background-color: black;
+    top: 200px;
+    left: 1000px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}

@@ -127,6 +127,9 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="gbb-row-wrapper mb-4">
         <div class="row-border special-row row-overlay gbb-row bg-size-cover" style="padding-top:20px">
             <div class="bb-inner remove_padding">
@@ -225,10 +228,8 @@
             </div>
         </div>
     </div>
-    <div class="container  p-sm-0 p-md-0 pt-5 mt-5">
+    <div class="container  pt-5 mt-5">
         <div class="gbb-row-wrapper pt-5">
-            <div class="pt-5 px-lg-3">
-
                 <div class="row-wrapper clearfix">
                     <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="column-inner bg-size-cover ">
@@ -249,7 +250,7 @@
                     </div>
                 </div>
 
-                <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0">
 
                     <div class="column-content-inner">
                         <div class="gsc-accordion">
@@ -264,7 +265,7 @@
                                     <div id="accordion-ytma5-1" class="panel-collapse in" role="tabpanel"
                                          style="width: auto">
                                         <div class="panel-body">
-                                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0">
                                                 <div class="column-inner bg-size-cover ">
                                                     <div class="column-content-inner">
                                                         <div class="gsc-tabs">
@@ -322,7 +323,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="panel panel-default d-lg-none d-md-none d-sm-block d-xl-none">
+                                <div class="panel panel-default d-lg-none d-md-none d-sm-block d-xl-none ">
                                     <div class="panel-heading" role="tab">
                                         <h4 class="panel-title"><a role="button" data-toggle="collapse" class=""
                                                                    data-parent="#accordion-ytma5"
@@ -534,15 +535,11 @@
             </div>
 
         </div>
-    </div>
-    <div class="container px-lg-5 p-sm-0 p-md-0 p-0">
-        <div class="gbb-row-wrapper ">
-            <div class=" gbb-row bg-size-cover ">
+        <div class="gbb-row-wrapper container">
+            <div class=" gbb-row bg-size-cover px-1 px-sm-2 ">
                 <div class="bb-inner">
-                    <div class=" container">
-                        <div class="row p-0">
+                        <div class="row ">
                             <div class="row-wrapper clearfix">
-
                                 <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="column-inner bg-size-cover">
                                         <div class="column-content-inner">
@@ -714,8 +711,7 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+
     {% if articles.count > 0 %}
         <div class="gbb-row-wrapper my-5">
             <div class=" gbb-row bg-size-cover">
@@ -735,7 +731,7 @@
                                     <div class="widget block gsc-block-view gsc-block-drupal block-view title-align-left text-dark remove-margin-off">
                                         <div class="views-element-container">
                                             <div class="row">
-                                                <div class=" col-lg-8  col-md-8 col-sm-12 col-12">
+                                                <div class=" col-lg-8  col-md-8 col-sm-12 col-12 p-0">
                                                     <div class="glide" id="glide1">
                                                         <div class="glide__track" data-glide-el="track">
                                                             <ul class="glide__slides">
@@ -746,7 +742,7 @@
                                                                                 <div class="post-block px-2">
                                                                                     <div class="post-image"><a
                                                                                             href="{% url "article" article.title %}"><img
-                                                                                            src="{{ article.image_head.url }}"
+                                                                                            src="{{ article.header_image.first.get_article_thumbnail_url }}"
                                                                                             alt="" typeof="Image"></a>
                                                                                     </div>
                                                                                     <div class="post-content text-left">
@@ -759,9 +755,7 @@
                                                                                                 class="post-created"> <i
                                                                                                 class="far fa-calendar-alt pr-2"></i> {{ article.date|date:"d-m-Y" }} </span> </span>
                                                                                         </div>
-                                                                                        <div class="post-body">
-                                                                                            <div class="body">{{ article.short_text }}</div>
-                                                                                        </div>
+
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -769,19 +763,10 @@
                                                                     </li>
                                                                 {% endfor %}
                                                             </ul>
-                                                            <div class="glide__arrows" data-glide-el="controls">
-                                                                <button class="glide__arrow glide__arrow--left"
-                                                                        data-glide-dir="<"><i
-                                                                        class="fas fa-arrow-left"></i>
-                                                                </button>
-                                                                <button class="glide__arrow glide__arrow--right"
-                                                                        data-glide-dir=">"><i
-                                                                        class="fas fa-arrow-right"></i></button>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-lg-4s col-md-4 col-12 col-sm-12">
+                                                <div class="col-lg-4s col-md-4 col-12 col-sm-12 p-0">
                                                     {% for article in articles %}
                                                         <div class="post-title mt-2 px-4"><span
                                                                 class="post-created">{{ article.date|date:"d-m-Y" }}</span>
@@ -820,7 +805,7 @@
                                 <div class="widget block gsc-block-view gsc-block-drupal block-view title-align-left text-dark remove-margin-off">
                                     <div class="views-element-container">
                                         <div class="row">
-                                            <div class=" col-lg-8  col-md-8 col-sm-12 col-12">
+                                            <div class=" col-lg-8  col-md-8 col-sm-12 col-12 p-0">
                                                 <div class="glide" id="glide5">
                                                     <div class="glide__track" data-glide-el="track">
                                                         <ul class="glide__slides">
@@ -831,7 +816,7 @@
                                                                             <div class="post-block px-2">
                                                                                 <div class="post-image"><a
                                                                                         href="{% url "article" article.title %}"><img
-                                                                                        src="{{ article.image_head.url }}"
+                                                                                        src="{{ article.image_head.get_article_thumbnail_url }}"
                                                                                         alt="" typeof="Image"></a>
                                                                                 </div>
                                                                                 <div class="post-content text-left">
@@ -854,18 +839,10 @@
                                                                 </li>
                                                             {% endfor %}
                                                         </ul>
-                                                        <div class="glide__arrows" data-glide-el="controls">
-                                                            <button class="glide__arrow glide__arrow--left"
-                                                                    data-glide-dir="<"><i class="fas fa-arrow-left"></i>
-                                                            </button>
-                                                            <button class="glide__arrow glide__arrow--right"
-                                                                    data-glide-dir=">"><i
-                                                                    class="fas fa-arrow-right"></i></button>
-                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="col-lg-4s col-md-4 col-12 col-sm-12">
+                                            <div class="col-lg-4s col-md-4 col-12 col-sm-12 p-0">
                                                 {% for article in info %}
                                                     <div class="post-title mt-2 px-4"><span
                                                             class="post-created">{{ article.date|date:"d-m-Y" }}</span>
@@ -886,7 +863,7 @@
     <div class="gbb-row-wrapper mt-5 py-5" style="background-color:#f5f5f5">
         <div class=" gbb-row bg-size-cover container">
             <div class="row ">
-                <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 px-sm-2 px-lg-2 px-md-2 px-2">
                     <div class="column-content-inner">
                         <div class="widget gsc-heading align-center text-center  style-default text-dark ">
                             <h2 class="title"><span><a href="{% url "galery" %}">Галерея</a></span></h2>
@@ -902,7 +879,7 @@
                                 <div class="views-element-container">
                                     <div class="gallery-grid-small js-view-dom-id-ea36bc02cd1031c938aa0a4ce8e210580285ba795984fa0d855f49648d1f97ba">
                                         <div class="gva-view-grid no-gutter">
-                                            <div class="gva-view-grid-inner lg-block-grid-3 md-block-grid-3 sm-block-grid-2 xs-block-grid-2 ">
+                                            <div class="gva-view-grid-inner lg-block-grid-3 md-block-grid-3 sm-block-grid-2 xs-block-grid-2 p-0">
                                                 {% for foto in foto_galery %}
                                                     <div class="item-columns">
                                                         <div class="">
@@ -943,7 +920,7 @@
                 <div class="bb-inner remove_padding_bottom">
                     <div class="bb-container container">
                         <div class="row">
-                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 px-lg-0 px-md-0 px-sm-2 px-2">
                                 <div class="column-inner bg-size-cover ">
                                     <div class="column-content-inner">
                                         <div class="widget gsc-heading align-center text-center  style-default text-dark ">
@@ -980,8 +957,8 @@
                                                                                                         <div class="image">
                                                                                                             <a href="#"><img
                                                                                                                     class="cover"
-                                                                                                                    src="{{ anonce.foto.url }}"
-                                                                                                                    alt="Design and renovation"></a>
+                                                                                                                    src="{{ anonce.foto.get_article_thumbnail_url }}"
+                                                                                                                    alt="Тут повинне бути фото"></a>
                                                                                                         </div>
                                                                                                         <div class="content">
                                                                                                             <h4 class="title mb-4">{{ anonce.title }}</h4>
@@ -1001,17 +978,6 @@
                                                                                         </li>
                                                                                     {% endfor %}
                                                                                 </ul>
-                                                                                <div class="glide__arrows"
-                                                                                     data-glide-el="controls">
-                                                                                    <button class="glide__arrow glide__arrow--left"
-                                                                                            data-glide-dir="<"><i
-                                                                                            class="fas fa-arrow-left"></i>
-                                                                                    </button>
-                                                                                    <button class="glide__arrow glide__arrow--right"
-                                                                                            data-glide-dir=">"><i
-                                                                                            class="fas fa-arrow-right"></i>
-                                                                                    </button>
-                                                                                </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -1036,7 +1002,7 @@
             <div class=" gbb-row bg-size-cover">
                 <div class="bb-inner default">
                     <div class="bb-container container">
-                        <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 p-0">
+                        <div class="gsc-column col-lg-12 col-md-12 col-sm-12 col-xs-12 px-lg-0 px-md-0 px-sm-2">
                             <div class="column-inner bg-size-cover ">
                                 <div class="column-content-inner">
                                     <div class="widget gsc-heading align-center style-default text-dark ">
@@ -1062,15 +1028,6 @@
                                                         </li>
                                                     {% endfor %}
                                                 </ul>
-                                                <div class="glide__arrows" data-glide-el="controls">
-                                                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-                                                        <i
-                                                                class="fas fa-arrow-left"></i>
-                                                    </button>
-                                                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-                                                        <i
-                                                                class="fas fa-arrow-right"></i></button>
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -1113,7 +1070,7 @@
                     perView: 2
                 },
 
-                800: {
+                400: {
                     perView: 1
                 }
             }
@@ -1146,7 +1103,7 @@
                 800: {
                     perView: 2
                 },
-                600: {
+                400: {
                     perView: 1
                 }
             }
@@ -1165,10 +1122,17 @@
                 800: {
                     perView: 2
                 },
-                600: {
+                400: {
                     perView: 1
                 }
             }
+        }).mount();
+
+        new Glide('#glide7', {
+            type: 'carousel',
+            perView: 1,
+            autoplay: 5000,
+
         }).mount();
 
 

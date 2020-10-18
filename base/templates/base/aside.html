@@ -9,7 +9,7 @@
                     {% block aside %}
                     {% endblock %}
                     <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 sidebar sidebar-right theiaStickySidebar ">
-                        <div class=" px-4 ">
+                        <div class="px-lg-4 px-md-4 px-2 ">
                             <div class="views-element-container block block-views block-views-blockpost-other-block-1"
                                  id="block-views-block-post-other-block-1">
                                 <h2 class="block-title"><span>Недавні новини</span></h2>
@@ -25,7 +25,7 @@
                                                                     <div class="post-block">
                                                                         <div class="post-image">
                                                                             <a href="{% url "article" article.title %}"><img
-                                                                                    src="{{ article.image_head.url }}"
+                                                                                    src="{{ article.header_image.first.get_admin_thumbnail_url }}"
                                                                                     alt="" typeof="Image"></a>
                                                                         </div>
                                                                         <div class="post-content">
@@ -49,7 +49,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class=" px-4">
+                        <div class="px-lg-4 px-md-4 px-2">
                             <div class="views-element-container block block-views block-views-blockpost-other-block-1"
                                  id="block-views-block-post-other-block-1">
                                 <h2 class="block-title"><span>Оголошення</span></h2>
@@ -65,7 +65,7 @@
                                                                     <div class="post-block">
                                                                         <div class="post-image">
                                                                             <a href="{% url "info_for_students_detailed" article.title %}"><img
-                                                                                    src="{{ article.image_head.url }}"
+                                                                                    src="{{ article.image_head.get_admin_thumbnail_url }}"
                                                                                     alt="" typeof="Image"></a>
                                                                         </div>
                                                                         <div class="post-content">
