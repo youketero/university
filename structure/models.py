@@ -43,7 +43,7 @@ class structure_person(models.Model):
     staff_id = models.ForeignKey(structure_staff, default=1, on_delete=models.CASCADE)
     lab_staff = models.BooleanField(default=1)
 
-    def __unicode__(self):
+    def __str__(self):
         return "%s %s" % (self.name, self.last_name)
 
     def short_text(self):
@@ -51,6 +51,14 @@ class structure_person(models.Model):
             return self.short_history[:100] + '...'
         else:
             return self.short_history
+
+
+class structure_cv_files(models.Model):
+    cv_name = models.FileField(default="#")
+    person_id = models.ForeignKey(structure_person, default=1, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return "%s" % (self.cv_name)
 
 
 class structure_laboratory(models.Model):

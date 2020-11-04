@@ -30,12 +30,14 @@ class entrance_code(models.Model):
 
 class entrance_specialization_way(models.Model):
     choise_field = (('Бакалавр', 'Бакалавр'), ('Магістр', 'Магістр'), ('Молодший спеціаліст', 'Молодший спеціаліст'))
+    choice_field_form = (("Денна", "Денна"), ("Заочна","Заочна"))
     code_id = models.ForeignKey(entrance_code, on_delete=models.CASCADE)
     subject_id = models.ManyToManyField(entrance_subject)
     edu_plan_id = models.ManyToManyField(edu_plan)
-    form_education = models.TextField(choices=choise_field, max_length=1000,
+    specialization_document = models.FileField(default="#", upload_to="entrance/docs")
+    education_level = models.TextField(choices=choise_field, max_length=1000,
                                       default="enter your form of education here")
-    education_level = models.TextField(max_length=1000, default="enter your education level here")
+    education_form = models.TextField(max_length=1000, choices=choice_field_form, default="enter your education level here")
     license = models.IntegerField(default=1)
     payment = models.IntegerField(default=1)
     duration_of_study = models.IntegerField(default=1)

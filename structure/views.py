@@ -1,7 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
-from structure.models import stucture_cathed, structure_person
+from structure.models import stucture_cathed, structure_person, structure_cv_files
 
 
 def structure(request):
@@ -17,4 +17,5 @@ def cathed_b(request, cathed_name):
 
 def teacher(request, teacher):
     teacher = get_object_or_404(structure_person, id=teacher)
+    cv = structure_cv_files.objects.filter(person_id=teacher)
     return render(request, "structure/teacher_info.html", locals())

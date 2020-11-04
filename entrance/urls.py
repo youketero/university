@@ -5,5 +5,5 @@ from entrance import views
 
 urlpatterns = [
     url(r'^vstup/$', entrance.views.vstup, name="vstup"),
-    url(r'^vstup/(?P<id>.*)/$', entrance.views.vstup_info, name="vstup_info"),
+    url(r'^vstup/(?P<id>.*)/(?P<ed_form>.*)/$', entrance.views.vstup_info, name="vstup_info"),
 ]

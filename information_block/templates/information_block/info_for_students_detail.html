@@ -1,5 +1,9 @@
 {% extends "base/aside.html" %}
 
+{% block title %}
+    {{ info_for_student.title }}
+{% endblock %}
+
 {% block aside %}
     <div class="gav-help-region">
         <div class="container">
@@ -22,7 +26,7 @@
                                     <div class="post-thumbnail ">
                                         <div>
                                             <div class="post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7">
-                                                <img src="{{ info_for_student.image_head.url }}" alt=""
+                                                <img src="{{ info_for_student.image_head.get_article_url }}" alt=""
                                                      typeof="Image">
                                             </div>
                                         </div>

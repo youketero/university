@@ -5,7 +5,7 @@
 {% endblock %}
 {% block content %}
 
-    <div id="content" class="content content-full mt-5">
+    <div id="content" class="content content-full my-5">
         <div class="container container-bg">
             <div class="content-main-inner">
                 <div class="row">
@@ -28,14 +28,14 @@
                                             <article data-history-node-id="24" role="article"
                                                      about="/drupal/edmix/business-card-red"
                                                      class="node node-detail node--type-portfolio node--promoted node--view-mode-full clearfix">
-                                                <div class="post-block portfolio-single">
+                                                <div class="post-block portfolio-single d-lg-block d-md-block d-sm-none d-xl-block d-none">
                                                     <div class="row">
                                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                                             <div class="post-thumbnail">
                                                                 <div>
-                                                                    <div class="post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7">
+                                                                    <div class=" post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7">
                                                                         <object>
-                                                                            <embed src="{{ vs.edu_plan_id.first.edu_plan_doc.url }}"
+                                                                            <embed src="{{ vs.specialization_document.url }}"
                                                                                    width="100%" height="600"/>
                                                                         </object>
                                                                     </div>
@@ -45,9 +45,9 @@
                                                     </div>
                                                 </div>
                                                 <header>
-                                                    <div class="widget gsc-heading align-left style-default">
+                                                    <div class="widget gsc-heading align-left style-default pt-0">
                                                         <h2 class="node__title title"><span><span
-                                                                property="schema:name">  <span>{{ vs.code_id.specialization_id.specialization_name|slice:-5 }}</span></span></span>
+                                                                property="schema:name">  <span>{{ vs.code_id.specialization_id.specialization_name }}</span></span></span>
                                                         </h2>
                                                         <div class="heading-line"><span class="one"></span><span
                                                                 class="second"></span><span class="three"></span></div>
@@ -69,11 +69,11 @@
                                                                 <div class="paragraph">Код</div>
                                                                 <div>{{ vs.code_id.specialization_code }}</div>
                                                                 <div class="paragraph">Спеціальність/Спеціаліація</div>
-                                                                <div>{{ vs.code_id.specialization_id.specialization_name|slice:-5 }}</div>
+                                                                <div>{{ map }}</div>
                                                                 <div class="paragraph">Форма навчання</div>
-                                                                <div>{{ vs.education_level }}</div>
+                                                                <div>{{ vs.education_form }}</div>
                                                                 <div class="paragraph">Освітній рівень</div>
-                                                                <div>{{ vs.form_education }}</div>
+                                                                <div>{{ vs.education_level }}</div>
                                                                 <div class="paragraph">Ліцензійний обсяг</div>
                                                                 <div>{{ vs.license }}</div>
                                                             </div>
@@ -89,7 +89,7 @@
                                                                             предметів сертифікату
                                                                         </div>
                                                                         <div>2 <span
-                                                                                class="mx-5 paragraph">{{ subject.min_grade }}</span>Мінімальна
+                                                                                class="mx-5 paragraph">{% if subject.min_grade <= 1 %}-{% else %}{{ subject.min_grade }}{% endif %}</span>Мінімальна
                                                                             кількість балів для допуску до участі в
                                                                             конкурсі або для зарахування
                                                                         </div>
@@ -97,31 +97,6 @@
                                                                 </div>
                                                                 <div class="mt-2"><span class="paragraph">*</span> -
                                                                     предмет на вибір
-                                                                </div>
-                                                                <div class="mt-2">
-                                                                    <p>
-                                                                        <label for="Sub1">Українська мова та література
-                                                                            <input class="form-control" type="number" name="Sub1" id="Sub1" value="2">
-                                                                        </label>
-                                                                    </p>
-                                                                    <p>
-                                                                        <label for="Sub2">Математика
-                                                                            <input class="form-control" type="number" name="Sub2" id="Sub2" value="2">
-                                                                        </label>
-                                                                    </p>
-                                                                    <p>
-                                                                        <label for="Sub3">Географія
-                                                                            <input class="form-control" type="number" name="Sub3" id="Sub3" value="2">
-                                                                        </label>
-                                                                    </p>
-                                                                    <p>
-                                                                        <label for="Sub4">Бал атестату
-                                                                            <input class="form-control" type="number" name="Sub4" id="Sub4" value="2">
-                                                                        </label>
-                                                                        <button class="ml-4 btn btn-success" onclick="getRes(Sub1.value,Sub2.value,Sub3.value,Sub4.value)">Click</button>
-                                                                    </p>
-                                                                    <div id="result"></div>
-
                                                                 </div>
                                                             </div>
                                                             <div id="tab-gd922e-3" class="tab-pane fade in ">
@@ -160,7 +135,7 @@
                                             <div class="column-inner bg-size-cover ">
                                                 <div class="column-content-inner">
                                                     <div class="gsc-image-content margin-bottom-0 skin-v2">
-                                                        <div class="image"><a href="#"><img class="cover"
+                                                        <div class="image1"><a href="#"><img class="cover"
                                                                                             src="{{ program.code_id.specialization_id.foto.url }}"
                                                                                             alt="Design and renovation"></a>
                                                         </div>
@@ -178,7 +153,7 @@
                                                                 </ul>
                                                             </div>
                                                             <div class="action"><a
-                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name %}">Читати
+                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name program.education_level %}">Читати
                                                                 далі</a></div>
                                                         </div>
                                                     </div>
@@ -195,17 +170,5 @@
             </div>
         </div>
     </div>
-
-    <script>
-    function getRes(value1,value2,value3,value4) {
-
-        let elem = document.getElementById("formul");
-        let res = document.getElementById("result");
-        res.innerHTML = (value1 * 0.5 + value2 * 0.1 + value3 * 0.3 + value4 * 0.1).toFixed(1);
-        elem.append(res);
-    }
-
-    </script>
-
 {% endblock %}
 

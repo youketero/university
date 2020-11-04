@@ -7,34 +7,51 @@
 
 {% block content %}
 
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-5 ">
-        <div class="container">
-            <div class="gva-view-grid">
-                <header>
-                    <div class="">
-                        <div class="widget gsc-heading align-left style-default padding-bottom-20">
-                            <h2 class="node__title title"><span><span
-                                    property="schema:name">{{ header_foto }}</span></span></h2>
-                            <div class="heading-line"><span class="one"></span><span class="second"></span><span
-                                    class="three"></span></div>
-                        </div>
-                    </div>
-                </header>
-                <div id="lightgallery">
-                    {% for foto in show_galery %}
-                        <div class="col-lg-3 col-md-4 col-sm-6  p-0" data-src="{{ foto.get_display_url }}">
-                            <div class="gallery-block">
-                                <a href="">
-                                    <div class="demo-galery-content ">
-                                        <img class="img-responsive cover" src="{{ foto.get_thumbnail_url }}">
+    <div class="body-page gva-body-page mt-5 ">
+        <div role="main" class="main main-page ">
+            <div id="content" class="content content-full">
+                <div class="container container-bg">
+                    <div class="content-main-inner">
+                        <div class="row">
+                            <div id="page-main-content" class="main-content  col-lg-12 col-xs-12 col-md-12 px-0">
+                                <div class="main-content-inner">
+                                    <div class="content-main">
+                                        <div class="container">
+                                            <header>
+                                                <div class="">
+                                                    <div class="widget gsc-heading align-left style-default padding-bottom-20">
+                                                        <h2 class="node__title title"><span><span
+                                                                property="schema:name">{{ header_foto }}</span></span>
+                                                        </h2>
+                                                        <div class="heading-line"><span class="one"></span><span
+                                                                class="second"></span><span
+                                                                class="three"></span></div>
+                                                    </div>
+                                                </div>
+                                            </header>
+                                            <div id="lightgallery">
+                                                {% for foto in show_galery %}
+                                                    <div class="col-lg-3 col-md-4 col-sm-6  p-0"
+                                                         data-src="{{ foto.get_display_url }}">
+                                                        <div class="gallery-block">
+                                                            <a href="">
+                                                                <div class="demo-galery-content ">
+                                                                    <img class="img-responsive cover"
+                                                                         src="{{ foto.get_thumbnail_url }}">
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                {% endfor %}
+                                            </div>
+                                        </div>
                                     </div>
-                                </a>
+                                </div>
                             </div>
                         </div>
-                    {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 {% endblock %}

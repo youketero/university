@@ -1,3 +1,5 @@
+from datetime import date
+
 from django.db import models
 from django.contrib.auth.models import User
 # Create your models here.
@@ -15,6 +17,7 @@ class subject_edu(models.Model):
 class edu_plan(models.Model):
     choise_cource = ((1, '1'), (2, '2'), (3, '3'), (4, "4"))
     specialization_name= models.TextField()
+    edu_plan_year = models.IntegerField(max_length=4, default="2000")
     edu_plan_doc = models.FileField(upload_to="edu/plan/")
     cource = models.IntegerField(default=1, choices=choise_cource)
     def __str__(self):

@@ -5,12 +5,12 @@
 {% endblock %}
 {% block content %}
 
-    <div id="content" class="content content-full mx-5">
+    <div id="content" class="content content-full mb-5">
         <div class="container container-bg">
             <div class="content-main-inner">
                 <div class="row ">
                     <header class="">
-                        <div class="mt-5 container ">
+                        <div class="my-5 container ">
                             <div class="widget gsc-heading align-left style-default padding-bottom-20">
                                 <h2 class="node__title title"><span><span property="schema:name">Освітні програми</span></span>
                                 </h2>
@@ -18,7 +18,7 @@
                                         class="three"></span></div>
                                 <div class="title-desc">
                                     <p>В даному розділі ви можете знайти інформацію про оствітні програми для бакалаврів
-                                        та магістріва</p>
+                                        та магістрів</p>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
                                             <div class="column-inner bg-size-cover ">
                                                 <div class="column-content-inner">
                                                     <div class="gsc-image-content margin-bottom-0 skin-v2">
-                                                        <div class="image"><a href="#"><img class="cover"
+                                                        <div class="image1"><a href="#"><img class="cover"
                                                                                             src="{{ program.code_id.specialization_id.foto.url }}"
                                                                                             alt="Design and renovation"></a>
                                                         </div>
@@ -51,7 +51,7 @@
                                                                 </ul>
                                                             </div>
                                                             <div class="action"><a
-                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name %}">Читати
+                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name program.education_level %}">Читати
                                                                 далі</a></div>
                                                         </div>
                                                     </div>
@@ -70,11 +70,11 @@
                                 <div class="post-grid-1 js-view-dom-id-1fa149c0900b31ad0a75c65f550d7aba8c5ef293b4a5e4954e21f6a44b11c6e7 ">
                                     <h4 class="px-4 ">ОКР магістр</h4>
                                     {% for program in sub_mag %}
-                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mt-2">
+                                        <div class="gsc-column col-lg-4 col-md-4 col-sm-12 col-xs-12 mb-4 mt-2 px-3">
                                             <div class="column-inner bg-size-cover ">
                                                 <div class="column-content-inner">
                                                     <div class="gsc-image-content margin-bottom-0 skin-v2">
-                                                        <div class="image"><a href="#"><img class="cover"
+                                                        <div class="image1"><a href="#"><img class="cover"
                                                                                             src="{{ program.code_id.specialization_id.foto.url }}"
                                                                                             alt="Design and renovation"></a>
                                                         </div>
@@ -92,7 +92,7 @@
                                                                 </ul>
                                                             </div>
                                                             <div class="action"><a
-                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name %}">Читати
+                                                                    href="{% url "vstup_info" program.code_id.specialization_id.specialization_name program.education_level%}">Читати
                                                                 далі</a></div>
                                                         </div>
                                                     </div>
@@ -108,9 +108,4 @@
             </div>
         </div>
     </div>
-
-
-
-
-
 {% endblock %}

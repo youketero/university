@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 # Register your models here.
-from structure.models import structure_staff, structure_person, stucture_cathed
+from structure.models import structure_staff, structure_person, stucture_cathed, structure_cv_files
 
 admin.site.register(structure_staff)
 
@@ -21,3 +21,4 @@ class structure_cathed_fil(admin.ModelAdmin):
         model = stucture_cathed
 
 admin.site.register(stucture_cathed, structure_cathed_fil)
+admin.site.register(structure_cv_files)
